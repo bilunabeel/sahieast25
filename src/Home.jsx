@@ -4,13 +4,12 @@ import Hero from './Sections/Hero';
 import Message from './Sections/Message';
 import Ribbon from './components/Ribbon';
 
-
 const Home = () => {
   return (
     <div>
       <Nav />
       <Hero />
-<Ribbon/>
+      <Ribbon />
       <Message />
     </div>
   );

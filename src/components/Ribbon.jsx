@@ -3,7 +3,7 @@ import RibbonBar from '../assets/RibbonWithBG.svg'
 
 const Ribbon = () => {
   return (
-    <div>
+    <div className=''>
         <img src={RibbonBar} className='-mt-36' />
     </div>
   )

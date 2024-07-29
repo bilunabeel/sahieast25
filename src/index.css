@@ -1,40 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 @font-face {
-    font-family: 'MonoRG';
-    src: url('./fonts/MONO-RGOMODULAR-Regular.otf') format('opentype');
-    font-weight: 100;
-    font-style: normal;
-  }
+  font-family: "MonoRG";
+  src: url("./fonts/MONO-RGOMODULAR-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
 
-  @font-face {
-    font-family: 'MonoRG';
-    src: url('./fonts/MONO-RGOMODULAR-SemiBold.otf') format('opentype');
-    font-weight: bold;
-    font-style: normal;
-  }
+@font-face {
+  font-family: "MonoRG";
+  src: url("./fonts/MONO-RGOMODULAR-SemiBold.otf") format("opentype");
+  font-weight: 600;
+  font-style: normal;
+}
 
-  @font-face {
-    font-family: 'MonoRG';
-    src: url('./fonts/MONO-RGOMODULAR-Bold.otf') format('opentype');
-    font-weight: bolder;
-    font-style: normal;
-  }
-
+@font-face {
+  font-family: "MonoRG";
+  src: url("./fonts/MONO-RGOMODULAR-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
-
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-  }
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
 @layer components {
   .max-container {
     max-width: 1190px;
@@ -43,34 +40,81 @@
 }
 
 @layer utilities {
-    .padding {
-      @apply sm:px-16 px-8 sm:py-24 py-12;
-    }
-  
-    .padding-x {
-      @apply sm:px-16 px-8;
-    }
-  
-    .padding-y {
-      @apply sm:py-24 py-12;
-    }
-  
-    .padding-l {
-      @apply sm:pl-16 pl-8;
-    }
-  
-    .padding-r {
-      @apply sm:pr-16 pr-8;
-    }
-  
-    .padding-t {
-      @apply sm:pt-24 pt-12;
-    }
-  
-    .padding-b {
-      @apply sm:pb-24 pb-12;
-    }
-  
-    
+  .padding {
+    @apply sm:px-16 px-8 sm:py-24 py-12;
   }
-  
+
+  .padding-x {
+    @apply sm:px-16 px-8;
+  }
+
+  .padding-y {
+    @apply sm:py-24 py-12;
+  }
+
+  .padding-l {
+    @apply sm:pl-16 pl-8;
+  }
+
+  .padding-r {
+    @apply sm:pr-16 pr-8;
+  }
+
+  .padding-t {
+    @apply sm:pt-24 pt-12;
+  }
+
+  .padding-b {
+    @apply sm:pb-24 pb-12;
+  }
+}
+
+
+
+.mask-gradient {
+  -webkit-mask-image: linear-gradient(
+    90deg,
+    transparent,
+    #fff 20%,
+    #fff 80%,
+    transparent
+  );
+  -webkit-mask-size: cover;
+  -webkit-mask-repeat: no-repeat;
+}
+
+/* src/index.css or src/App.css */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.scroll-container {
+  display: flex;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.scroll-content {
+  display: inline-flex;
+  gap: 10px;
+  animation: scroll 10s linear infinite;
+  /* Adjust the duration (10s) to change the speed */
+}
+
+.scroll-content2 {
+  display: inline-flex;
+  gap: 10px;
+  animation: scroll 8s linear infinite;
+  /* Adjust the duration (10s) to change the speed */
+}
+.scroll-content3 {
+  display: inline-flex;
+  gap: 10px;
+  animation: scroll 9s linear infinite;
+  /* Adjust the duration (10s) to change the speed */
+}

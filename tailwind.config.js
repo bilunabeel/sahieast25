@@ -14,6 +14,11 @@ export default {
       "8xl": ["96px", "106px"],
     },
     extend: {
+      animation:{"loop-scroll":"loop-scroll 50s linear infinite"},
+      keyframes:{"loop-scroll":{
+        from:{transform:"translate(0)"},
+        to:{transform:"translate(-100%)"}
+      }},
       fontFamily: {
         poppins: ["Poppins", "san-serif"],
         mono: ["MonoRG", "san-serif"],

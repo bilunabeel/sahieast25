@@ -5,15 +5,24 @@ import Message from './Sections/Message';
 import Ribbon from './components/Ribbon';
 import WhatSahi from './Sections/WhatSahi';
 import Footer from './Sections/Footer';
+import Counts from './Sections/Counts';
+import Sample from './Sections/Sample';
+import Gallery from './Sections/Gallery';
+import Live from './components/Live';
+
 
 const Home = () => {
   return (
     <div>
       <Nav />
+      <Live/>
       <Hero />
       <Ribbon />
       <Message />
       <WhatSahi />
+      <Counts/>
+      <Gallery/>
+{/* <Sample/> */}
       <Footer/>
     </div>
   );

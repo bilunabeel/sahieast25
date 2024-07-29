@@ -4,10 +4,10 @@ import LogoHoriWhite from '../assets/logo_hori_white.svg';
 
 const Hero = () => {
   return (
-    <section className="mt-16 flex justify-center">
+    <section className="mt-16 bg-opacity-70 bg-black flex h-[100vh] justify-center">
 
 
-      <div className=" bg-black opacity-75 absolute  w-full h-full" />
+      {/* <div className=" bg-black opacity-75 absolute  w-full h-full" /> */}
 
       <video
         className="w-full h-full absolute object-cover -z-10"
@@ -17,7 +17,7 @@ const Hero = () => {
         muted
       />
       
-      <div className=" z-100 absolute padding-x  h-full padding-y flex justify-between max-md:text-center items-center max-md:flex-col max-md:items-center max-md:gap-8 max-container ">
+      <div className=" z-100 absolute padding-x  h-full padding-y flex justify-between max-md:justify-center max-md:text-center items-center max-md:flex-col max-md:items-center max-md:gap-10 max-container ">
         <div className="flex gap-3 w-full h-36 ">
           <img src={LogoHoriWhite} />
         </div>

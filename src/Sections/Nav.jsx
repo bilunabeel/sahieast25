@@ -3,14 +3,16 @@ import {Menu, MenuButton, MenuItem, MenuItems} from '@headlessui/react';
 // import { ChevronDownIcon } from '@heroicons/react/20/solid'
 // import { GiHamburgerMenu } from "react-icons/gi";
 import {Sling as Hamburger, Sling} from 'hamburger-react';
+import Logo from '../assets/Logo.svg'
+import FestTitle from '../assets/FestTitle.svg'
 
 const Nav = () => {
   return (
-    <nav className="font-poppins font-semibold fixed z-20 bg-light_gray text-black w-full h-16 padding-x flex justify-between items-center shadow-md">
+    <nav className="font-poppins font-semibold top-0 m-0 fixed z-20 bg-light_gray text-black w-full h-16 padding-x flex justify-between items-center shadow-md">
       
-      <div className="flex gap-5">
-        <p>Logo</p>
-        <p className="max-sm:hidden">Festival of Hope</p>
+      <div className="flex gap-3">
+        <img src={Logo} className='h-10' alt="" />
+        <img src={FestTitle} className='h-10' alt="" />
       </div>
       
       <li className="flex gap-5 max-md:hidden">

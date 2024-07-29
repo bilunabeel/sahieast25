@@ -3,6 +3,7 @@ import Nav from './Sections/Nav';
 import Hero from './Sections/Hero';
 import Message from './Sections/Message';
 import Ribbon from './components/Ribbon';
+import WhatSahi from './Sections/WhatSahi';
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <Hero />
       <Ribbon />
       <Message />
+      <WhatSahi />
     </div>
   );
 };

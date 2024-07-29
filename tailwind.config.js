@@ -23,7 +23,8 @@ export default {
       'theme_gold':'#bf9966',
       'theme_green':'#69b295',
       'theme_yellow':'#d8c46f',
-      'theme_red':'#d35f59'      
+      'theme_red':'#d35f59',     
+      'theme_black':'#3d3d3d' 
     },},
   },
   plugins: [],

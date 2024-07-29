@@ -22,7 +22,7 @@ const Home = () => {
       <Ribbon />
       <Message />
       <WhatSahi />
-      <Counts/>
+      {/* <Counts/> */}
       <Gallery/>
 {/* <Sample/> */}
       <Footer/>

@@ -1,8 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+@font-face {
+    font-family: 'MonoRG';
+    src: url('./fonts/MONO-RGOMODULAR-Regular.otf') format('opentype');
+    font-weight: 100;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'MonoRG';
+    src: url('./fonts/MONO-RGOMODULAR-SemiBold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'MonoRG';
+    src: url('./fonts/MONO-RGOMODULAR-Bold.otf') format('opentype');
+    font-weight: bolder;
+    font-style: normal;
+  }
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 
 
 * {

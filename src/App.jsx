@@ -1,13 +1,15 @@
 import {useState} from 'react';
-import Nav from './Sections/Nav';
+
+
 import './App.css';
+import Home from './Home';
 
 function App () {
   const [count, setCount] = useState (0);
 
   return (
     <div>
-       <Nav/>
+       <Home/>
     </div>
   );
 }

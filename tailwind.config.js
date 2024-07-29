@@ -18,11 +18,12 @@ export default {
     extend: {fontFamily:{poppins:['Poppins','san-serif']
     },
     colors: {
-      'primary':'#f36e26', //orange
-      'bg_primary': "#E5E4C7", //white and yellow mix
-      'black_sec':'#212222', //dark gray
-      'gray_primary':'#dadad8' //light gray
-      
+      'light_gray':'#fefeff',
+      'text_gray':'#535253',
+      'theme_gold':'#bf9865',
+      'theme_green':'#69b094',
+      'theme_yellow':'#d8c46e',
+      'theme_red':'#d25f58'      
     },},
   },
   plugins: [],

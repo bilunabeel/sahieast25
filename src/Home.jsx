@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Nav from './Sections/Nav';
 import Hero from './Sections/Hero';
 import Message from './Sections/Message';
@@ -12,10 +12,12 @@ import Live from './components/Live';
 
 
 const Home = () => {
+  const [onLive,setOnlive] = useState(true)
   return (
     <div>
       <Nav />
-      <Live/>
+      {onLive && <Live/>}
+      
       <Hero />
       <Ribbon />
       <Message />

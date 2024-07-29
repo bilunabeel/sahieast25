@@ -79,8 +79,6 @@
     #fff 80%,
     transparent
   );
-  -webkit-mask-size: cover;
-  -webkit-mask-repeat: no-repeat;
 }
 
 /* src/index.css or src/App.css */

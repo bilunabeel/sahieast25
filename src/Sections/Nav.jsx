@@ -17,8 +17,8 @@ const Nav = () => {
       
       <li className="flex gap-5 max-md:hidden">
         <ul>Home</ul>
-        <ul>About</ul>
-        <ul>Message</ul>
+        <ul>News</ul>
+        <ul>Result</ul>
         <ul>Gallery</ul>
         <ul>Videos</ul>
         <ul className='text-theme_gold'>Results</ul>

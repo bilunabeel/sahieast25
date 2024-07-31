@@ -91,33 +91,31 @@
   }
 }
 
-@layer components{
 
-  
-  .scroll-container {
+
+.scroll-container {
   display: flex;
   overflow: hidden;
   white-space: nowrap;
 }
 
+
 .scroll-content {
   display: inline-flex;
   gap: 10px;
-  animation: scroll 10s linear infinite;
+  animation: scroll 25s linear infinite;
   /* Adjust the duration (10s) to change the speed */
 }
 
 .scroll-content2 {
   display: inline-flex;
   gap: 10px;
-  animation: scroll 8s linear infinite;
+  animation: scroll 20s linear infinite;
   /* Adjust the duration (10s) to change the speed */
 }
 .scroll-content3 {
   display: inline-flex;
   gap: 10px;
-  animation: scroll 9s linear infinite;
+  animation: scroll 25s linear infinite;
   /* Adjust the duration (10s) to change the speed */
-}
-
 }

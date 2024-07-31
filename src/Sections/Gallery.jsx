@@ -2,105 +2,37 @@ import React from 'react';
 
 const Gallery = () => {
   return (
-    <div className="padding-y">
-      <section className="scroll font-poppins flex justify-center items-center overflow-hidden  mask-gradient relative gap-10 max-container padding-x">
-        <div className="scroll-content">
-          <span className="transition duration-500">HTML</span>
-          <span>Javascript</span>
-          <span>Reactjs</span>
-          <span>NodeJs</span>
-          <span>CSS</span>
-          <span>jquery</span>
-          <span>Figma</span>
-          <span>Photoshop</span>
-        </div>
-        <div className="scroll-content">
-          <span>HTML</span>
-          <span>Javascript</span>
-          <span>Reactjs</span>
-          <span>NodeJs</span>
-          <span>CSS</span>
-          <span>jquery</span>
-          <span>Figma</span>
-          <span>Photoshop</span>
-        </div>
-        <div className="scroll-content">
-          <span>HTML</span>
-          <span>Javascript</span>
-          <span>Reactjs</span>
-          <span>NodeJs</span>
-          <span>CSS</span>
-          <span>jquery</span>
-          <span>Figma</span>
-          <span>Photoshop</span>
-        </div>
+    <div className="padding-y flex flex-col gap-4 justify-center">
+      <section className="scroll font-poppins flex justify-center items-center overflow-hidden  mask-gradient relative gap-2 max-container padding-x">
+
+        <img src="./1.jpg" className="scroll-content h-36" alt="" />
+        <img src="./1.jpg" className="scroll-content h-36" alt="" />
+        <img src="./1.jpg" className="scroll-content h-36" alt="" />
+        <img src="./1.jpg" className="scroll-content h-36" alt="" />
+        <img src="./1.jpg" className="scroll-content h-36" alt="" />
+        <img src="./1.jpg" className="scroll-content h-36" alt="" />
+        <img src="./1.jpg" className="scroll-content h-36" alt="" />
+
       </section>
 
-      <section className="scroll font-poppins flex justify-center items-center overflow-hidden  mask-gradient relative  gap-10 max-container padding-x">
-        <div className="scroll-content2">
-          <span className="transition duration-500">HTML</span>
-          <span>Javascript</span>
-          <span>Reactjs</span>
-          <span>NodeJs</span>
-          <span>CSS</span>
-          <span>jquery</span>
-          <span>Figma</span>
-          <span>Photoshop</span>
-        </div>
-        <div className="scroll-content2">
-          <span>HTML</span>
-          <span>Javascript</span>
-          <span>Reactjs</span>
-          <span>NodeJs</span>
-          <span>CSS</span>
-          <span>jquery</span>
-          <span>Figma</span>
-          <span>Photoshop</span>
-        </div>
-        <div className="scroll-content2">
-          <span>HTML</span>
-          <span>Javascript</span>
-          <span>Reactjs</span>
-          <span>NodeJs</span>
-          <span>CSS</span>
-          <span>jquery</span>
-          <span>Figma</span>
-          <span>Photoshop</span>
-        </div>
+      <section className="scroll font-poppins flex justify-center items-center overflow-hidden  mask-gradient relative  gap-2 max-container padding-x">
+        <img src="./1.jpg" className="scroll-content h-36" alt="" />
+        <img src="./1.jpg" className="scroll-content h-36" alt="" />
+        <img src="./1.jpg" className="scroll-content h-36" alt="" />
+        <img src="./1.jpg" className="scroll-content h-36" alt="" />
+        <img src="./1.jpg" className="scroll-content h-36" alt="" />
+        <img src="./1.jpg" className="scroll-content h-36" alt="" />
+        <img src="./1.jpg" className="scroll-content h-36" alt="" />
       </section>
 
-      <section className="scroll font-poppins flex justify-center items-center overflow-hidden  mask-gradient relative  gap-10 max-container padding-x">
-        <div className="scroll-content2">
-          <span className="transition duration-500">HTML</span>
-          <span>Javascript</span>
-          <span>Reactjs</span>
-          <span>NodeJs</span>
-          <span>CSS</span>
-          <span>jquery</span>
-          <span>Figma</span>
-          <span>Photoshop</span>
-        </div>
-        <div className="scroll-content3">
-          <span>HTML</span>
-          <span>Javascript</span>
-          <span>Reactjs</span>
-          <span>NodeJs</span>
-          <span>CSS</span>
-          <span>jquery</span>
-          <span>Figma</span>
-          <span>Photoshop</span>
-        </div>
-        <div className="scroll-content3">
-          <span>HTML</span>
-          <span>Javascript</span>
-          <span>Reactjs</span>
-          <span>NodeJs</span>
-          <span>CSS</span>
-          <span>jquery</span>
-          <span>Figma</span>
-          <span>Photoshop</span>
-        </div>
-      </section>
+      <section className="scroll font-poppins flex justify-center items-center overflow-hidden  mask-gradient relative  gap-2 max-container padding-x">
+      <img src="./1.jpg" className='scroll-content h-36' alt="" />
+        <img src="./1.jpg" className='scroll-content h-36' alt="" />
+        <img src="./1.jpg" className='scroll-content h-36' alt="" />
+        <img src="./1.jpg" className='scroll-content h-36' alt="" />
+        <img src="./1.jpg" className='scroll-content h-36' alt="" />
+        <img src="./1.jpg" className='scroll-content h-36' alt="" />
+        <img src="./1.jpg" className='scroll-content h-36' alt="" />      </section>
     </div>
   );
 };

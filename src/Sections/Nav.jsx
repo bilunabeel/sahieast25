@@ -10,18 +10,18 @@ const Nav = () => {
   return (
     <nav className="font-poppins font-semibold top-0 m-0 fixed z-20 bg-light_gray text-black w-full h-16 padding-x flex justify-between items-center shadow-md">
       
-      <div className="flex gap-3">
+      <div className="flex gap-3 cursor-pointer hover:scale-110 transform transition-transform duration-300" href="sahieast/">
         <img src={Logo} className='h-10' alt="" />
         <img src={FestTitle} className='h-10' alt="" />
       </div>
       
       <li className="flex gap-5 max-md:hidden">
-        <ul>Home</ul>
-        <ul>News</ul>
-        <ul>Result</ul>
-        <ul>Gallery</ul>
-        <ul>Videos</ul>
-        <ul className='text-theme_gold'>Results</ul>
+        <ul className='hover:scale-110 transform transition-transform duration-300 cursor-pointer hover:text-theme_gold'>Home</ul>
+        <ul className='hover:scale-110 transform transition-transform duration-300 cursor-pointer hover:text-theme_gold'>News</ul>
+        <ul className='hover:scale-110 transform transition-transform duration-300 cursor-pointer hover:text-theme_gold'>Result</ul>
+        <ul className='hover:scale-110 transform transition-transform duration-300 cursor-pointer hover:text-theme_gold'>Gallery</ul>
+        <ul className='hover:scale-110 transform transition-transform duration-300 cursor-pointer hover:text-theme_gold'>Videos</ul>
+        <ul className='text-theme_gold hover:scale-110 transform transition-transform duration-300 hover:text-theme_red'>Results</ul>
       </li>
 
       <Menu as="div" className=" md:hidden relative inline-block text-left">
@@ -37,7 +37,7 @@ const Nav = () => {
           className="absolute right-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 transition focus:outline-none data-[closed]:scale-95 data-[closed]:transform data-[closed]:opacity-0 data-[enter]:duration-100 data-[leave]:duration-75 data-[enter]:ease-out data-[leave]:ease-in"
         >
           <div className="py-1">
-            <MenuItem>
+            <MenuItem >
               <a
                 href="#"
                 className="block px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100 data-[focus]:text-gray-900"

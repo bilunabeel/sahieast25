@@ -15,7 +15,7 @@ const Home = () => {
   const [onLive,setOnlive] = useState(true)
   return (
     <div>
-      <Nav />
+      
       {onLive && <Live/>}
       
       <Hero />

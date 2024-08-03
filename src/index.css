@@ -116,6 +116,6 @@
 .scroll-content3 {
   display: inline-flex;
   gap: 10px;
-  animation: scroll 25s linear infinite;
+  animation: scroll 30s linear infinite;
   /* Adjust the duration (10s) to change the speed */
 }

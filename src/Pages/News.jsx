@@ -4,8 +4,8 @@ const News = () => {
 
   const newsContent = {header:'സാഹിത്യോത്സവിന് പ്രൗഢമായ തുടക്കം'}
   return (
-    <section className="max-container padding-y padding-x">
-      <h1 className="mb-8 text-left font-mono text-4xl text-theme_black">News</h1>
+    <section className="mt-16 padding-y padding-x">
+      <h1 className=" mb-8 text-left font-mono text-4xl text-theme_black">News</h1>
       <div className="grid max-md:grid-cols-2 max-sm:grid-cols-1 grid-cols-3 gap-8 ">
 
         <div className="w-full  rounded-tr-3xl rounded-bl-3xl shadow-xl">

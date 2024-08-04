@@ -7,25 +7,28 @@ import News from './Pages/News';
 import Results from './Pages/Results';
 import Footer from './Sections/Footer';
 import Live from './components/Live';
-
+import Videos from './Pages/Videos';
 
 function App () {
   const [count, setCount] = useState (0);
-  const [onLive,setOnlive] = useState(true)
+  const [onLive, setOnlive] = useState (true);
 
   return (
     <Router>
       <Nav onLive={onLive} />
-      {onLive && <Live/>}
+      {onLive && <Live />}
       <Routes>
-      <Route path="*" element={<Navigate to="/sahieast/" />} />
+
+        <Route path="*" element={<Navigate to="/sahieast/" />} />
         <Route path="/sahieast/" element={<Home />} />
         <Route path="/sahieast/news" element={<News />} />
         <Route path="/sahieast/results" element={<Results />} />
-        
+        <Route path="/sahieast/videos" element={<Videos />} />
+
       </Routes>
 
-      <Footer/>
+      <Footer />
+      
     </Router>
   );
 }

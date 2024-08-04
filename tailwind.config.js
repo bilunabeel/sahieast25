@@ -14,6 +14,9 @@ export default {
       "8xl": ["96px", "106px"],
     },
     extend: {
+      zIndex: {
+        150: 150,
+      },
       animation: { "loop-scroll": "loop-scroll 50s linear infinite" },
       keyframes: {
         "loop-scroll": {

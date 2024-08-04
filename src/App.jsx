@@ -8,15 +8,20 @@ import Results from './Pages/Results';
 import Footer from './Sections/Footer';
 import Live from './components/Live';
 import Videos from './Pages/Videos';
+import Score from './components/Score';
+
 
 function App () {
   const [count, setCount] = useState (0);
   const [onLive, setOnlive] = useState (true);
+  const [scoreOn, setScoreOn] =useState(false)
 
   return (
     <Router>
       <Nav onLive={onLive} />
       {onLive && <Live />}
+      <Score scoreOn={scoreOn} setScoreOn={setScoreOn} />
+      
       <Routes>
 
         <Route path="*" element={<Navigate to="/sahieast/" />} />

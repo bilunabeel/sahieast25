@@ -2,24 +2,25 @@ import React from 'react';
 
 const News = () => {
 
-  const newsContent = {header:'Noteworthy technology acquisitions 2021'}
+  const newsContent = {header:'സാഹിത്യോത്സവിന് പ്രൗഢമായ തുടക്കം'}
   return (
     <section className="max-container padding-y padding-x">
       <h1 className="mb-8 text-left font-mono text-4xl text-theme_black">News</h1>
       <div className="grid max-md:grid-cols-2 max-sm:grid-cols-1 grid-cols-3 gap-8 ">
 
-        <div class="w-full  rounded-tr-3xl rounded-bl-3xl shadow-xl">
+        <div className="w-full  rounded-tr-3xl rounded-bl-3xl shadow-xl">
           <a href="#">
             <img
-              class="rounded-tr-3xl rounded-bl-3xl shadow-lg"
+              className="rounded-tr-3xl rounded-bl-3xl shadow-lg"
               src="1.jpg"
               alt=""
             />
           </a>
-          <div class="p-5 ">
+          <div className="p-5 ">
             <a href="#">
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-theme_black">
-                Noteworthy technology acquisitions 2021
+              <h5 className="font-baloo  mb-2 text-2xl font-bold tracking-tight text-theme_black">
+              സാഹിത്യോത്സവിന് പ്രൗഢമായ തുടക്കം
+
               </h5>
             </a>
             
@@ -48,18 +49,19 @@ const News = () => {
           </div>
         </div>
 
-        <div class="w-full  rounded-tr-3xl rounded-bl-3xl shadow-xl">
+        <div className="w-full  rounded-tr-3xl rounded-bl-3xl shadow-xl">
           <a href="#">
             <img
-              class="rounded-tr-3xl rounded-bl-3xl shadow-lg"
+              className="rounded-tr-3xl rounded-bl-3xl shadow-lg"
               src="1.jpg"
               alt=""
             />
           </a>
-          <div class="p-5 ">
+          <div className="p-5 ">
             <a href="#">
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-theme_black">
-                Noteworthy technology acquisitions 2021
+              <h5 class="font-baloo  mb-2 text-2xl font-bold tracking-tight text-theme_black">
+              സാഹിത്യോത്സവിന് പ്രൗഢമായ തുടക്കം
+
               </h5>
             </a>
             
@@ -88,18 +90,19 @@ const News = () => {
           </div>
         </div>
 
-        <div class="w-full rounded-tr-3xl rounded-bl-3xl shadow-xl">
+        <div className="w-full rounded-tr-3xl rounded-bl-3xl shadow-xl">
           <a href="#">
             <img
-              class="rounded-tr-3xl rounded-bl-3xl shadow-lg"
+              className="rounded-tr-3xl rounded-bl-3xl shadow-lg"
               src="1.jpg"
               alt=""
             />
           </a>
-          <div class="p-5 ">
+          <div className="p-5 ">
             <a href="#">
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-theme_black">
-                Noteworthy technology acquisitions 2021
+              <h5 className="font-baloo  mb-2 text-2xl font-bold tracking-tight text-theme_black">
+              സാഹിത്യോത്സവിന് പ്രൗഢമായ തുടക്കം
+
               </h5>
             </a>
             
@@ -128,18 +131,19 @@ const News = () => {
           </div>
         </div>
 
-        <div class="w-full rounded-tr-3xl rounded-bl-3xl shadow-xl">
+        <div className="w-full rounded-tr-3xl rounded-bl-3xl shadow-xl">
           <a href="#">
             <img
-              class="rounded-tr-3xl rounded-bl-3xl shadow-lg"
+              className="rounded-tr-3xl rounded-bl-3xl shadow-lg"
               src="1.jpg"
               alt=""
             />
           </a>
-          <div class="p-5 ">
+          <div className="p-5 ">
             <a href="#">
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-theme_black">
-                Noteworthy technology acquisitions 2021
+              <h5 className="font-baloo  mb-2 text-2xl font-bold tracking-tight text-theme_black">
+              സാഹിത്യോത്സവിന് പ്രൗഢമായ തുടക്കം
+
               </h5>
             </a>
             
@@ -168,18 +172,19 @@ const News = () => {
           </div>
         </div>
 
-        <div class="w-full rounded-tr-3xl rounded-bl-3xl shadow-xl">
+        <div className="w-full rounded-tr-3xl rounded-bl-3xl shadow-xl">
           <a href="#">
             <img
-              class="rounded-tr-3xl rounded-bl-3xl shadow-lg"
+              className="rounded-tr-3xl rounded-bl-3xl shadow-lg"
               src="1.jpg"
               alt=""
             />
           </a>
-          <div class="p-5 ">
+          <div className="p-5 ">
             <a href="#">
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-theme_black">
-                Noteworthy technology acquisitions 2021
+              <h5 className="font-baloo  mb-2 text-2xl font-bold tracking-tight text-theme_black">
+              സാഹിത്യോത്സവിന് പ്രൗഢമായ തുടക്കം
+
               </h5>
             </a>
             

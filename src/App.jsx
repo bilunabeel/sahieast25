@@ -5,6 +5,8 @@ import Home from './Home';
 import Nav from './Sections/Nav';
 import News from './Pages/News';
 import Results from './Pages/Results';
+import Footer from './Sections/Footer';
+
 
 function App () {
   const [count, setCount] = useState (0);
@@ -19,6 +21,7 @@ function App () {
         <Route path="/sahieast/results" element={<Results />} />
         
       </Routes>
+      <Footer/>
     </Router>
   );
 }

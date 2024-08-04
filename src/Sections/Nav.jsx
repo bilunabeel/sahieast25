@@ -8,30 +8,34 @@ import FestTitle from '../assets/FestTitle.svg';
 import News from '../Pages/News';
 import Results from '../Pages/Results';
 import {Link} from 'react-router-dom';
+import {MdOutlineLiveTv} from 'react-icons/md';
 
 const Nav = () => {
+  const style = {
+    backGroundColor: 'red',
+  };
   return (
     <nav className="font-poppins font-semibold top-0 m-0 fixed z-20 bg-light_gray text-black w-full h-16 padding-x flex justify-between items-center shadow-md">
-<Link to={'/'}>
-      <div
-      
-      className="flex gap-3 cursor-pointer hover:scale-110 transform transition-transform duration-300"
-      href="/"
-      >
-        <img src={Logo} className="h-10" alt="" />
-        <img src={FestTitle} className="h-10" alt="" />
-      </div>
-        </Link>
+      <Link to={'/'}>
+        <div
+          className="flex gap-3 cursor-pointer hover:scale-110 transform transition-transform duration-300"
+          href="/"
+        >
+          <img src={Logo} className="h-10" alt="" />
+          <img src={FestTitle} className="h-10" alt="" />
+        </div>
+      </Link>
 
       <li className="flex gap-5 max-md:hidden">
         <Link to={'/'}>
-        <ul className="hover:scale-110 transform transition-transform duration-300 cursor-pointer hover:text-theme_gold">
-          Home
-        </ul>
+          <ul className="hover:scale-110 transform transition-transform duration-300 cursor-pointer hover:text-theme_gold">
+            Home
+          </ul>
         </Link>
-        <Link to={"/sahieast/news"}>
+        <Link to={'/sahieast/news'}>
           <ul className="hover:scale-110 transform transition-transform duration-300 cursor-pointer hover:text-theme_gold">
             News
+
           </ul>
         </Link>
         <ul className="hover:scale-110 transform transition-transform duration-300 cursor-pointer hover:text-theme_gold">
@@ -39,6 +43,9 @@ const Nav = () => {
         </ul>
         <ul className="hover:scale-110 transform transition-transform duration-300 cursor-pointer hover:text-theme_gold">
           Videos
+          <svg className="absolute left-5 -top-2 animate-bounce h-5 w-5">
+            <MdOutlineLiveTv className="text-red-600 rounded" style={style} />
+          </svg>
         </ul>
         <Link to={'/sahieast/results'}>
           <ul className="text-theme_gold hover:scale-110 transform transition-transform duration-300 cursor-pointer hover:text-theme_red">
@@ -92,9 +99,15 @@ const Nav = () => {
             <MenuItem>
               <a
                 href="#"
-                className="block px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100 data-[focus]:text-gray-900"
+                className="flex gap-1  px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100 data-[focus]:text-gray-900"
               >
                 Videos
+                <svg className="animate-bounce w-4 h-4">
+                  <MdOutlineLiveTv
+                    className="text-red-600 rounded"
+                    style={style}
+                  />
+                </svg>
               </a>
             </MenuItem>
             <MenuItem>

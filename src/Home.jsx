@@ -25,7 +25,6 @@ const Home = () => {
       {/* <Counts/> */}
       <Gallery/>
 {/* <Sample/> */}
-      <Footer/>
     </div>
   );
 };

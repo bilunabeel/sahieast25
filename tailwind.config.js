@@ -14,14 +14,17 @@ export default {
       "8xl": ["96px", "106px"],
     },
     extend: {
-      animation:{"loop-scroll":"loop-scroll 50s linear infinite"},
-      keyframes:{"loop-scroll":{
-        from:{transform:"translate(0)"},
-        to:{transform:"translate(-100%)"}
-      }},
+      animation: { "loop-scroll": "loop-scroll 50s linear infinite" },
+      keyframes: {
+        "loop-scroll": {
+          from: { transform: "translate(0)" },
+          to: { transform: "translate(-100%)" },
+        },
+      },
       fontFamily: {
         poppins: ["Poppins", "san-serif"],
         mono: ["MonoRG", "san-serif"],
+        baloo: ["'Baloo Chettan 2'", "sans-serif"],
       },
       colors: {
         light_gray: "#f4f4f4",

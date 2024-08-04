@@ -10,7 +10,7 @@ import {BsThreadsFill} from 'react-icons/bs';
 
 const Footer = () => {
   return (
-    <section>
+    <section className='mt-10'>
       <img src={Footer_Bar} alt="" />
       <div className="bg-theme_black py-16 padding-x">
 

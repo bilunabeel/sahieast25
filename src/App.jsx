@@ -6,14 +6,17 @@ import Nav from './Sections/Nav';
 import News from './Pages/News';
 import Results from './Pages/Results';
 import Footer from './Sections/Footer';
+import Live from './components/Live';
 
 
 function App () {
   const [count, setCount] = useState (0);
+  const [onLive,setOnlive] = useState(true)
 
   return (
     <Router>
-      <Nav />
+      <Nav onLive={onLive} />
+      {onLive && <Live/>}
       <Routes>
       <Route path="*" element={<Navigate to="/sahieast/" />} />
         <Route path="/sahieast/" element={<Home />} />
@@ -21,6 +24,7 @@ function App () {
         <Route path="/sahieast/results" element={<Results />} />
         
       </Routes>
+
       <Footer/>
     </Router>
   );

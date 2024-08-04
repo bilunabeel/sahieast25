@@ -10,7 +10,7 @@ import Results from '../Pages/Results';
 import {Link} from 'react-router-dom';
 import {MdOutlineLiveTv} from 'react-icons/md';
 
-const Nav = () => {
+const Nav = ({onLive}) => {
   const style = {
     backGroundColor: 'red',
   };
@@ -43,9 +43,9 @@ const Nav = () => {
         </ul>
         <ul className="hover:scale-110 transform transition-transform duration-300 cursor-pointer hover:text-theme_gold">
           Videos
-          <svg className="absolute left-5 -top-2 animate-bounce h-5 w-5">
+          {onLive && <svg className="absolute left-5 -top-2 animate-bounce h-5 w-5">
             <MdOutlineLiveTv className="text-red-600 rounded" style={style} />
-          </svg>
+          </svg>}
         </ul>
         <Link to={'/sahieast/results'}>
           <ul className="text-theme_gold hover:scale-110 transform transition-transform duration-300 cursor-pointer hover:text-theme_red">
@@ -102,12 +102,12 @@ const Nav = () => {
                 className="flex gap-1  px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100 data-[focus]:text-gray-900"
               >
                 Videos
-                <svg className="animate-bounce w-4 h-4">
+                {onLive && <svg className="animate-bounce w-4 h-4">
                   <MdOutlineLiveTv
                     className="text-red-600 rounded"
                     style={style}
                   />
-                </svg>
+                </svg>}
               </a>
             </MenuItem>
             <MenuItem>

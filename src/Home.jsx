@@ -12,11 +12,11 @@ import Live from './components/Live';
 
 
 const Home = () => {
-  const [onLive,setOnlive] = useState(true)
+  
   return (
     <div>
       
-      {onLive && <Live/>}
+      
       
       <Hero />
       <Ribbon />

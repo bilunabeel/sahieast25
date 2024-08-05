@@ -1,9 +1,10 @@
 import React from 'react';
 import Logo from '../assets/Logo.svg'
+import SahiLogo from '../assets/SahiLogoWhiteBG.svg'
 
 const Message = () => {
   return (
-    <section className="z-10 bg-white  ">
+    <section className="z-10 bg-light_gray  ">
       
       {/* //what's hope? */}
       <div className="max-container text-left flex justify-between items-center max-md:flex-col-reverse gap-16 padding-y padding-x">
@@ -15,6 +16,7 @@ const Message = () => {
 
         </div>
           <img src={Logo} className="h-64 w-full" alt="" />
+          <img src={SahiLogo} className="h-64 w-full" alt="" />
       </div>
 
       

@@ -1,30 +1,42 @@
 import React from 'react';
-import reactLogo from '../assets/react.svg';
+import CountBar from '../assets/CountBar.png';
 
 const Counts = () => {
+
+  const sectionStyle = {
+    backgroundImage: `url(${CountBar})`,
+    backgroundSize: 'contain',
+    backgroundPosition: 'center',
+    height: '12rem',// Adjust height as needed
+  };
+
   return (
-    <section className=" ">
-      <div className="flex justify-between items-center ">
-        <div className="w-full bg-theme_red flex padding-y padding-x">
+    <section style={sectionStyle} className="">
+      
+      {/* <img src={CountBar} className="w-full h-full object-contain" alt="" /> */}
 
-          <div className="max-container flex-col flex items-center justify-center">
-            <h1 className="font-mono font-bold text-8xl">36</h1>
-            <h3 className="font-poppins font-bold text-xl">Competitions</h3>
-          </div>
-          <div className="max-container flex-col flex items-center justify-center">
-            <h1 className="font-mono font-bold text-8xl">36</h1>
-            <h3 className="font-poppins font-bold text-xl">Competitions</h3>
-          </div>
-          <div className="max-container flex-col flex items-center justify-center">
-            <h1 className="font-mono font-bold text-8xl">36</h1>
-            <h3 className="font-poppins font-bold text-xl">Competitions</h3>
-          </div>
-        </div>
+      <div className="">
 
-        <div className="w-full">
-          <img src={reactLogo} alt="" />
+        <div className="font-poppins text-white text-center justify-center items-center flex gap-8">
+          <div>
+            <h1 className="text-8xl">01</h1>
+            <h1 className="text-xl">Days</h1>
+          </div>
+          <div>
+            <h1 className="text-8xl">01</h1>
+            <h1 className="text-xl">Stages</h1>
+          </div>
+          <div>
+            <h1 className="text-8xl">01</h1>
+            <h1 className="text-xl">Events</h1>
+          </div>
+          <div>
+            <h1 className="text-8xl">01</h1>
+            <h1 className="text-xl">Participants</h1>
+          </div>
         </div>
       </div>
+
     </section>
   );
 };

@@ -22,8 +22,8 @@ const Home = () => {
       <Hero />
       <Ribbon />
       <Message />
-      <WhatSahi />
       {/* <Counts/> */}
+      {/* <WhatSahi /> */}
       <MapFdbk/>  
 {/* <Sample/> */}
     </div>

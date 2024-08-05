@@ -77,6 +77,11 @@ const Nav = ({onLive}) => {
               </svg>}
           </ul>
         </Link>
+        <Link to={'/sahieast/downloads'}>
+          <ul className=" hover:scale-110 transform transition-transform duration-300 cursor-pointer hover:text-theme_gold">
+            Downloads
+          </ul>
+        </Link>
         <Link to={'/sahieast/results'}>
           <ul className="text-theme_gold hover:scale-110 transform transition-transform duration-300 cursor-pointer hover:text-theme_red">
             Results
@@ -153,6 +158,16 @@ const Nav = ({onLive}) => {
               </Link>
             </MenuItem>
 
+            <MenuItem>
+              <Link to={'/sahieast/downloads'}>
+                <a
+                  href="#"
+                  className="block px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100 data-[focus]:text-gray-900"
+                >
+                  Downloads
+                </a>
+              </Link>
+            </MenuItem>
             <MenuItem>
               <Link to={'/sahieast/results'}>
                 <a

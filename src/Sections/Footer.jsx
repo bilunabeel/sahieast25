@@ -17,11 +17,11 @@ const Footer = () => {
         <div className="flex justify-between max-md:flex-col max-md:items-center max-md:gap-5 max-container">
           <img src={Org} className="h-5" />
           <div className='text-white flex gap-2'>
-            <BsThreadsFill />
-            <FaSquareXTwitter />
-            <FaFacebookSquare />
-            <FaSquareInstagram />
-            <FaSquareYoutube />
+            <a href="https://www.threads.net/@ssfmlpmeast?hl=en"><BsThreadsFill /></a>
+            <a href="https://x.com/SsfEast?t=Zh8uUhT1ZVw-Qe_ee7nJDg&s=09"><FaSquareXTwitter /></a>
+            <a href="https://www.facebook.com/ssfmlpmeast"><FaFacebookSquare /></a>
+            <a href="https://www.instagram.com/ssfmlpmeast?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><FaSquareInstagram /></a>
+            <a href="https://www.youtube.com/@SSFMALAPPURAMEAST"><FaSquareYoutube /></a>
           </div>
         </div>
       </div>

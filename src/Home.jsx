@@ -9,6 +9,7 @@ import Counts from './Sections/Counts';
 import Sample from './Sections/Sample';
 import Gallery from './Sections/Gallery';
 import Live from './components/Live';
+import MapFdbk from './Sections/MapFdbk';
 
 
 const Home = () => {
@@ -23,7 +24,7 @@ const Home = () => {
       <Message />
       <WhatSahi />
       {/* <Counts/> */}
-      <Gallery/>
+      <MapFdbk/>  
 {/* <Sample/> */}
     </div>
   );

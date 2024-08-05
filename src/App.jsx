@@ -9,6 +9,7 @@ import Footer from './Sections/Footer';
 import Live from './components/Live';
 import Videos from './Pages/Videos';
 import Score from './components/Score';
+import NewsCnt from './Pages/NewsCnt';
 
 
 function App () {
@@ -27,6 +28,7 @@ function App () {
         <Route path="*" element={<Navigate to="/sahieast/" />} />
         <Route path="/sahieast/" element={<Home />} />
         <Route path="/sahieast/news" element={<News />} />
+        <Route path="/sahieast/newscnt" element={<NewsCnt />} />
         <Route path="/sahieast/results" element={<Results />} />
         <Route path="/sahieast/videos" element={<Videos />} />
 

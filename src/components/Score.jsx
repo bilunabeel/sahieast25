@@ -15,14 +15,13 @@ const Score = ({scoreOn, setScoreOn}) => {
     }
   };
 
-  useEffect(() => {
-    document.addEventListener('mousedown',handleClickOutside)
-  
+  useEffect (() => {
+    document.addEventListener ('mousedown', handleClickOutside);
+
     return () => {
-      document.addEventListener('mousedown',handleClickOutside)
-    }
-  }, [])
-  
+      document.removeEventListener ('mousedown', handleClickOutside);
+    };
+  }, []);
 
   return (
     <section className="mt-48 z-150 fixed flex gap-1">

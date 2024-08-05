@@ -7,7 +7,7 @@ const Videos = () => {
         <h1 className="mb-8 text-left font-mono text-4xl text-theme_black">
           Watch sahityotsav
         </h1>
-        <div className="grid grid-cols-2 gap-x-12">
+        <div className="grid grid-cols-2 max-md:grid-cols-1 gap-x-12 ">
 
           <div className=" h-full">
             <div className="mb-6">
@@ -20,7 +20,7 @@ const Videos = () => {
                   allowfullscreen
                 />
               </div>
-              <h1 className="font-poppins font-medium text-3xl mt-2">
+              <h1 className="font-poppins font-medium max-md:text-x text-3xl mt-2">
                 Stage 01 | Festival of Hope
               </h1>
             </div>
@@ -41,7 +41,7 @@ const Videos = () => {
           </div>
 
           {/* <div className="bg-black w-[1px] h-screen" /> */}
-          
+
           <div className=" h-16">
             <div className="grid grid-cols-2 gap-8">
 

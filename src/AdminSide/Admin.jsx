@@ -12,7 +12,7 @@ const Admin = () => {
   };
 
   return (
-    <div className="mt-16 padding-y padding-x ">
+    <div className="mt-16 padding-y padding-x max-container">
 
       <div className="h-16 w-full bg-theme_green mb-6 px-3">
         <div className="h-full text-white font-poppins flex gap-6  items-center">

@@ -19,12 +19,12 @@ const Hero = () => {
       
       <div className=" z-100 absolute padding-x  h-full padding-y flex justify-between max-md:justify-center max-md:text-center items-center max-md:flex-col max-md:items-center max-md:gap-10 max-container ">
         <div className="flex gap-3 w-full h-36 ">
-          <img src={LogoHoriWhite} />
+          <img src={LogoHoriWhite} className='animate-fade-right' />
         </div>
         <div>
-          <p className="font-poppins w-full text-white font-light">
-            The Festival of Hope is a beacon of optimism in a world often shrouded in uncertainty. It's a gathering where hearts unite, spirits soar, and the human capacity for resilience is celebrated.
-            {' '}
+          <p className="font-poppins w-full text-white font-light animate-fade-left" >
+          Real change begins when we choose hope. By believing that we have the power to make an impact, we take the first step on the journey to changing our world. The choice is yours. But you are not alone.
+
           </p>
         </div>
       </div>

@@ -56,7 +56,9 @@ const Results = () => {
           </div>
           <div className="winners w-full h-auto font-poppins bg-light_gray text-theme_black flex flex-col items-center border border-theme_black p-5">
 
-            <h1 className="text-2xl font-light">General</h1>
+
+<h1 className='text-3xl font-medium text-red-600'>Results not yet published!</h1>
+            {/* <h1 className="text-2xl font-light">General</h1>
             <h1 className="text-3xl font-bold">Group Song (B)</h1>
             <div className="flex items-center gap-2 mt-6">
               <PiMedalFill size={30} color={'gold'} className="first_place" />
@@ -86,7 +88,9 @@ const Results = () => {
                 <h1 className="font-semibold text-xl">Mohamed Nabeel</h1>
                 <h1 className="font-light">Perinthalmanna</h1>
               </div>
-            </div>
+            </div> */}
+
+
 
           </div>
         </div>

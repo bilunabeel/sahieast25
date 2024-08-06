@@ -28,13 +28,13 @@ const Score = ({scoreOn, setScoreOn}) => {
 
       <div
         onClick={handleToggle}
-        className="h-16 w-10 bg-theme_yellow rounded-r-full flex justify-center items-center cursor-pointer hover:bg-theme_gold"
+        className="h-16 w-10 hover:w-12  bg-theme_yellow rounded-r-full flex justify-center items-center cursor-pointer hover:bg-theme_gold transition-all duration-300 ease-in-out"
       >
         <GiTrophyCup />
       </div>
 
       {scoreOn &&
-        <div ref={scoreRef} className="w-72 flex">
+        <div ref={scoreRef} className="w-72 flex animate-fade-right animate-duration-100">
           {/* <div className="w-0 h-0 border-r-[15px] border-r-theme_yellow border-b-[15px] border-b-transparent" /> */}
           <div className="p-8 w-72 ml-2 bg-theme_yellow font-poppins rounded-3xl flex flex-col">
             <h1 className="font-semibold text-xl text-left">Score Board</h1>

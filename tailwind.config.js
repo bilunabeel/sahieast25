@@ -14,9 +14,11 @@ export default {
       "8xl": ["96px", "106px"],
     },
     extend: {
+      opacity: ['responsive', 'hover', 'focus', 'group-hover'],
       zIndex: {
         150: 150,
       },
+      safelist: ['animate-[fade-in_1s_ease-in-out]', 'animate-[fade-in-down_1s_ease-in-out]'],
       animation: { "loop-scroll": "loop-scroll 50s linear infinite" },
       keyframes: {
         "loop-scroll": {
@@ -25,8 +27,8 @@ export default {
         },
       },
       fontFamily: {
-        poppins: ["Poppins", "san-serif"],
-        mono: ["MonoRG", "san-serif"],
+        poppins: ["Poppins", "sans-serif"],
+        mono: ["MonoRG", "sans-serif"],
         baloo: ["'Baloo Chettan 2'", "sans-serif"],
       },
       colors: {
@@ -42,5 +44,6 @@ export default {
   },
   plugins: [
     require('@tailwindcss/aspect-ratio'),
+    require('tailwindcss-animated')
   ],
 };

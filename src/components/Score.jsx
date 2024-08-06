@@ -24,7 +24,7 @@ const Score = ({scoreOn, setScoreOn}) => {
   }, []);
 
   return (
-    <section className="mt-80 z-150 fixed flex gap-1">
+    <section className="mt-72 z-150 fixed flex gap-1">
 
       <div
         onClick={handleToggle}

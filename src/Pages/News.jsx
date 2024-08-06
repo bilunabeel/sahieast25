@@ -8,7 +8,7 @@ const News = () => {
       <h1 className=" mb-8 text-left font-mono text-4xl text-theme_black">
         News
       </h1>
-      <div className="grid max-md:grid-cols-2 max-sm:grid-cols-1 grid-cols-3 gap-8 ">
+      <div className="grid max-lg:grid-cols-2 max-sm:grid-cols-1 grid-cols-3 gap-8 ">
 
         <Link to={'/sahieast/newscnt'}>
           <div className="w-full  rounded-tr-3xl rounded-bl-3xl shadow-xl">
@@ -21,7 +21,7 @@ const News = () => {
             </a>
             <div className="p-5 ">
               <a href="#">
-                <h5 className="font-baloo  mb-2 text-2xl font-bold tracking-tight text-theme_black">
+                <h5 className="font-baloo  mb-2 text-2xl  font-bold tracking-tight text-theme_black">
                   സാഹിത്യോത്സവിന് പ്രൗഢമായ തുടക്കം
 
                 </h5>
@@ -64,7 +64,7 @@ const News = () => {
             </a>
             <div className="p-5 ">
               <a href="#">
-                <h5 className="font-baloo  mb-2 text-2xl font-bold tracking-tight text-theme_black">
+                <h5 className="font-baloo  mb-2 text-2xl  font-bold tracking-tight text-theme_black">
                   സാഹിത്യോത്സവിന് പ്രൗഢമായ തുടക്കം
 
                 </h5>
@@ -105,7 +105,7 @@ const News = () => {
             </a>
             <div className="p-5 ">
               <a href="#">
-                <h5 className="font-baloo  mb-2 text-2xl font-bold tracking-tight text-theme_black">
+                <h5 className="font-baloo  mb-2 text-2xl  font-bold tracking-tight text-theme_black">
                   സാഹിത്യോത്സവിന് പ്രൗഢമായ തുടക്കം
 
                 </h5>
@@ -146,7 +146,7 @@ const News = () => {
             </a>
             <div className="p-5 ">
               <a href="#">
-                <h5 className="font-baloo  mb-2 text-2xl font-bold tracking-tight text-theme_black">
+                <h5 className="font-baloo  mb-2 text-2xl  font-bold tracking-tight text-theme_black">
                   സാഹിത്യോത്സവിന് പ്രൗഢമായ തുടക്കം
 
                 </h5>

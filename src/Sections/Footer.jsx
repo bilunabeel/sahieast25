@@ -12,12 +12,19 @@ import useIntersectionObserver from '../hooks/useIntersectionObserver';
 const Footer = () => {
 
   const [isInView, setIsInView] = useState(false);
+
   const handleIntersection = (entries) => {
     const entry = entries[0];
     if (entry.isIntersecting) {
+      console.log('is in view');
       setIsInView(true);
+
+    }else{
+      console.log('is not in view');
+      setIsInView(false)
     }
   };
+
   const targetRef = useIntersectionObserver(handleIntersection, {
     root: null, // Use the viewport
     rootMargin: '0px',
@@ -25,7 +32,7 @@ const Footer = () => {
   });
 
   return (
-    <section ref={targetRef} className={`mt-10 ${isInView ? 'animate-flip-up' : 'animate-flip-up '} transition-all duration-1000`}>
+    <section ref={targetRef} className={`mt-10 ${isInView ? 'opacity-100 animate-flip-up' : 'opacity-0 '} transition-all duration-1000`}>
       <img src={Footer_Bar} alt="" />
       <div className="bg-theme_black py-16 padding-x">
 

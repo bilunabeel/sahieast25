@@ -11,6 +11,7 @@ import Videos from './Pages/Videos';
 import Score from './components/Score';
 import NewsCnt from './Pages/NewsCnt';
 import Downloads from './Pages/Downloads';
+import Admin from './AdminSide/Admin';
 
 
 function App () {
@@ -33,6 +34,7 @@ function App () {
         <Route path="/sahieast/downloads" element={<Downloads/>} />
         <Route path="/sahieast/results" element={<Results />} />
         <Route path="/sahieast/videos" element={<Videos />} />
+        <Route path="/sahieast/admin" element={<Admin/>} />
 
       </Routes>
 

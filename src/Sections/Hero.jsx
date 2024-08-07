@@ -22,7 +22,7 @@ const Hero = () => {
           <img src={LogoHoriWhite} className='animate-fade-right' />
         </div>
         <div className="animate-fade-left">
-          <p className="font-poppins w-full text-white font-light animate-typing " >
+          <p className="font-poppins w-full text-white font-light animate-typing overflow-hidden whitespace-nowrap" >
           Real change begins when we choose hope. By believing that we have the power to make an impact, we take the first step on the journey to changing our world. The choice is yours. But you are not alone.
 
           </p>

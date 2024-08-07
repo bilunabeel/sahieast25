@@ -31,9 +31,13 @@ const Message = () => {
       {/* //what's hope? */}
       <div className="max-container text-left flex justify-between items-center max-md:flex-col-reverse gap-16 padding-y padding-x">
         <div ref={targetRef} className={`flex flex-col gap-5 w-full  ${isInView ? 'animate-fade-left' : 'opacity-0 '} transition-all duration-1000`}>
-          <h1 className="text-4xl font-mono ">What's Hope?</h1>
+          <h1 className="text-4xl font-mono ">What's festival of Hope?</h1>
           <p className="font-light font-poppins">
-            The Festival of Hope is a beacon of optimism in a world often shrouded in uncertainty. It's a gathering where hearts unite, spirits soar, and the human capacity for resilience is celebrated. Whether it's a platform for young voices to be heard, a celebration of cancer survivors, or a community coming together to support those in need, the essence remains the same: to kindle hope, inspire action, and build a brighter future. Through music, art, storytelling, and shared experiences, the festival becomes a living testament to the enduring power of the human spirit.
+          Real change begins when we choose hope. By believing that we have the power to make an impact, we take the first step on the journey to changing our world. The choice is yours. But you are not alone.
+<br />
+        
+          This year, Malappuram East District Sahityotsav celebrates the hope that burns brightest in the hearts of the marginalized. We will amplify the voices of minorities and disadvantaged communities, showcasing their struggles and aspirations through literature, poetry, and discourse.
+
           </p>
 
         </div>

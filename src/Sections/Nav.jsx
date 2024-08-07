@@ -56,6 +56,11 @@ const Nav = ({onLive}) => {
             Home
           </ul>
         </Link>
+        <Link to={'/sahieast/about'}>
+          <ul className="hover:scale-110 transform transition-transform duration-300 cursor-pointer hover:text-theme_gold">
+            About
+          </ul>
+        </Link>
         <Link to={'/sahieast/news'}>
           <ul className="hover:scale-110 transform transition-transform duration-300 cursor-pointer hover:text-theme_gold">
             News
@@ -116,6 +121,18 @@ const Nav = ({onLive}) => {
                 >
 
                   Home
+                </a>
+              </Link>
+            </MenuItem>
+          
+            <MenuItem>
+              <Link to={'/sahieast/about'}>
+                <a
+                  href="#"
+                  className="block px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100 data-[focus]:text-gray-900"
+                >
+
+                  About
                 </a>
               </Link>
             </MenuItem>

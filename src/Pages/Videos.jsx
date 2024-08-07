@@ -1,7 +1,12 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import {PiMedalBold, PiMedalFill, PiMedalLight} from 'react-icons/pi';
 
 const Videos = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <section className="mt-16 ">
       <div className="padding-y padding-x">

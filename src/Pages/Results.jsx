@@ -1,9 +1,14 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import {PiMedalFill} from 'react-icons/pi';
 import {PiMedalBold} from 'react-icons/pi';
 import {PiMedalLight} from 'react-icons/pi';
 
 const Results = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <section className="mt-16 ">
       <div className="max-container padding-y padding-x">
@@ -57,7 +62,7 @@ const Results = () => {
           <div className="winners w-full h-auto font-poppins bg-light_gray text-theme_black flex flex-col items-center border border-theme_black p-5">
 
 
-<h1 className='text-3xl font-medium text-red-600'>Results not yet published!</h1>
+<h1 className='text-3xl font-medium animate-pulse text-red-600'>Results not yet published!</h1>
             {/* <h1 className="text-2xl font-light">General</h1>
             <h1 className="text-3xl font-bold">Group Song (B)</h1>
             <div className="flex items-center gap-2 mt-6">

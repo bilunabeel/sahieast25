@@ -1,8 +1,16 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import {Link} from 'react-router-dom';
 
+
 const News = () => {
+
+
   const newsContent = {header: 'സാഹിത്യോത്സവിന് പ്രൗഢമായ തുടക്കം'};
+  
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+  
   return (
     <section className="mt-16 padding-y padding-x max-container">
       <h1 className=" mb-8 text-left font-mono text-4xl text-theme_black">

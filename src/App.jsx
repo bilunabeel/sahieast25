@@ -12,11 +12,12 @@ import Score from './components/Score';
 import NewsCnt from './Pages/NewsCnt';
 import Downloads from './Pages/Downloads';
 import Admin from './AdminSide/Admin';
+import About from './Pages/About';
 
 
 function App () {
   const [count, setCount] = useState (0);
-  const [onLive, setOnlive] = useState (true);
+  const [onLive, setOnlive] = useState (false);
   const [scoreOn, setScoreOn] =useState(false)
 
   return (
@@ -29,6 +30,7 @@ function App () {
 
         <Route path="*" element={<Navigate to="/sahieast/" />} />
         <Route path="/sahieast/" element={<Home />} />
+        <Route path="/sahieast/about" element={<About />} />
         <Route path="/sahieast/news" element={<News />} />
         <Route path="/sahieast/newscnt" element={<NewsCnt />} />
         <Route path="/sahieast/downloads" element={<Downloads/>} />

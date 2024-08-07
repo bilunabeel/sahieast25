@@ -1,25 +1,32 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import {FaSquareWhatsapp} from 'react-icons/fa6';
 
 const NewsCnt = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <section className="mt-16 max-container padding-y padding-x ">
       <div className="mb-8 flex max-md:flex-col max-md:items-start justify-between items-end ">
         <img className="md:w-2/3 h-auto mb-2 md:mb-6" src="1.jpg" alt="" />
         <div className="mb-5 max-md:hidden">
           <h2 className="font-poppins mb-2 text-gray-400">August 07, 2024</h2>
-          <h2 className="flex items-center gap-2 leading-4 font-semibold">
+          <a href="https://whatsapp.com/channel/0029Vahbl5FKWEKmOoxvzj0D"><h2 className="flex items-center cursor-pointer gap-2 leading-4 font-semibold">
             For more
             <br />
             {' '}
             updates
             {' '}
             <span><FaSquareWhatsapp color={'green'} size={40} /></span>
-          </h2>
+          </h2></a>
         </div>
+          <a href="https://whatsapp.com/channel/0029Vahbl5FKWEKmOoxvzj0D" className='cursor-pointer'>
           <h2 className="flex items-center md:hidden font-poppins text-xs gap-2 leading-4 font-semibold">
             <span className='text-gray-400'>August 07, 2024</span>For more updates<span><FaSquareWhatsapp color={'green'} size={20} /></span>
           </h2>
+          </a>
         
       </div>
       <h1 className=" mb-8 w-2/3 text-left font-baloo leading-9 font-bold text-3xl text-theme_black">

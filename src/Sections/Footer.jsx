@@ -7,6 +7,7 @@ import {FaSquareInstagram} from 'react-icons/fa6';
 import {FaFacebookSquare} from 'react-icons/fa';
 import {FaSquareXTwitter} from 'react-icons/fa6';
 import {BsThreadsFill} from 'react-icons/bs';
+import { FaWhatsappSquare } from "react-icons/fa";
 import useIntersectionObserver from '../hooks/useIntersectionObserver';
 
 const Footer = () => {
@@ -44,6 +45,7 @@ const Footer = () => {
             <a href="https://www.facebook.com/ssfmlpmeast"><FaFacebookSquare /></a>
             <a href="https://www.instagram.com/ssfmlpmeast?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><FaSquareInstagram /></a>
             <a href="https://www.youtube.com/@SSFMALAPPURAMEAST"><FaSquareYoutube /></a>
+            <a href="https://whatsapp.com/channel/0029Vahbl5FKWEKmOoxvzj0D"><FaWhatsappSquare /></a>
           </div>
         </div>
       </div>

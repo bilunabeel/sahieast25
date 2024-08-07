@@ -19,7 +19,7 @@ export default {
         150: 150,
       },
       safelist: ['animate-[fade-in_1s_ease-in-out]', 'animate-[fade-in-down_1s_ease-in-out]'],
-      animation: { "loop-scroll": "loop-scroll 50s linear infinite" },
+      animation: { "loop-scroll": "loop-scroll 50s linear infinite","typing": "typing 2s steps(20) infinite alternate blink .7s infinite"},
       keyframes: {
         "loop-scroll": {
           from: { transform: "translate(0)" },

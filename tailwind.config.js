@@ -24,7 +24,23 @@ export default {
         "loop-scroll": {
           from: { transform: "translate(0)" },
           to: { transform: "translate(-100%)" },
+        },"typing": {
+          "0%": {
+            width: "0%",
+            visibility: "hidden"
+          },
+          "100%": {
+            width: "100%"
+          }  
         },
+        "blink": {
+          "50%": {
+            borderColor: "transparent"
+          },
+          "100%": {
+            borderColor: "white"
+          }  
+        }
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],

@@ -42,9 +42,9 @@ const Score = ({scoreOn, setScoreOn}) => {
             <div className="bg-black h-[.1px] w-full my-2" />
 
             <ul className="text-xl font-semibold">
-              <li>Kondotty <span className="text-2xl">453</span>{' '}</li>
-              <li>Areekode <span className="text-2xl">398</span>{' '}</li>
-              <li>Pulikkal <span className="text-2xl">376</span>{' '}</li>
+              <li>Kondotty <span className="text-2xl">000</span>{' '}</li>
+              <li>Areekode <span className="text-2xl">000</span>{' '}</li>
+              <li>Pulikkal <span className="text-2xl">000</span>{' '}</li>
             </ul>
 
             <div className="bg-black w-full h-[.1px] my-2" />

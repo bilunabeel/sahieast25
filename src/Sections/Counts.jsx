@@ -1,41 +1,33 @@
 import React from 'react';
-import CountBar from '../assets/CountBar.png';
+import CountBar from '../assets/CountBG.svg';
+import AnimatedCounter from '../components/AnimatedCounter';
 
 const Counts = () => {
+  const countsElements = [
+    {cnt: 3, elem: 'Days'},
+    {cnt: 10, elem: 'Stages'},
+    {cnt: 11, elem: 'Teams'},
+    {cnt: 200, elem: 'Events'},
+    {cnt: 2000, elem: 'Participants'},
+  ];
 
-  const sectionStyle = {
-    backgroundImage: `url(${CountBar})`,
-    backgroundSize: 'contain',
-    backgroundPosition: 'center',
-    height: '12rem',// Adjust height as needed
-  };
+  
 
   return (
-    <section style={sectionStyle} className="">
+    <section className="relative ">
+
+      <img src={CountBar} className="w-full h-auto " alt="" />
+
       
-      {/* <img src={CountBar} className="w-full h-full object-contain" alt="" /> */}
+        <div className="font-poppins font-light absolute inset-0 text-white text-center justify-center items-center max-md:bg-none bg-black bg-opacity-20 flex max-lg:gap-10 gap-20">
+          {countsElements.map (em => (
+            <div className='max-md:hidden'>
+              <h1 className="text-4xl max-lg:text-2xl"><AnimatedCounter endValue={em.cnt} duration={2} /></h1>
+              <h1 className="text-2xl max-lg:text-xl">{em.elem}</h1>
+            </div>
+          ))}
 
-      <div className="">
-
-        <div className="font-poppins text-white text-center justify-center items-center flex gap-8">
-          <div>
-            <h1 className="text-8xl">01</h1>
-            <h1 className="text-xl">Days</h1>
-          </div>
-          <div>
-            <h1 className="text-8xl">01</h1>
-            <h1 className="text-xl">Stages</h1>
-          </div>
-          <div>
-            <h1 className="text-8xl">01</h1>
-            <h1 className="text-xl">Events</h1>
-          </div>
-          <div>
-            <h1 className="text-8xl">01</h1>
-            <h1 className="text-xl">Participants</h1>
-          </div>
         </div>
-      </div>
 
     </section>
   );

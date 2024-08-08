@@ -22,7 +22,7 @@ const Home = () => {
       <Hero />
       <Ribbon />
       <Message />
-      {/* <Counts/> */}
+      <Counts/>
       {/* <WhatSahi /> */}
       <MapFdbk/>  
 {/* <Sample/> */}

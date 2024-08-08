@@ -50,14 +50,14 @@ const Score = ({scoreOn, setScoreOn}) => {
             <div className="bg-black w-full h-[.1px] my-2" />
 
             <ul className="text-lg">
-              <li>Malappuram <span className="text-xl">453</span></li>
-              <li>Edakkara <span className="text-xl">453</span></li>
-              <li>Nilambur <span className="text-xl">453</span></li>
-              <li>Kolathur <span className="text-xl">453</span></li>
-              <li>Manjeri West <span className="text-xl">453</span></li>
-              <li>Manjeri East <span className="text-xl">453</span></li>
-              <li>Pulikkal <span className="text-xl">453</span></li>
-              <li>Perinthalmanna <span className="text-xl">453</span></li>
+              <li>Malappuram <span className="text-xl">000</span></li>
+              <li>Edakkara <span className="text-xl">000</span></li>
+              <li>Nilambur <span className="text-xl">000</span></li>
+              <li>Kolathur <span className="text-xl">000</span></li>
+              <li>Manjeri West <span className="text-xl">000</span></li>
+              <li>Manjeri East <span className="text-xl">000</span></li>
+              <li>Pulikkal <span className="text-xl">000</span></li>
+              <li>Perinthalmanna <span className="text-xl">000</span></li>
             </ul>
 
           </div>

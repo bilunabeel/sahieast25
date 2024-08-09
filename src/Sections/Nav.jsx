@@ -50,28 +50,28 @@ const Nav = ({onLive}) => {
       </Link>
 
       {/* ------Menubar------  */}
-      <li className="flex gap-5 max-md:hidden">
+      <ul className="flex gap-5 max-md:hidden">
         <Link to={'/'}>
-          <ul className="hover:scale-110 transform transition-transform duration-300 cursor-pointer hover:text-theme_gold">
+          <li className="hover:scale-110 transform transition-transform duration-300 cursor-pointer hover:text-theme_gold">
             Home
-          </ul>
+          </li>
         </Link>
         <Link to={'/sahieast/about'}>
-          <ul className="hover:scale-110 transform transition-transform duration-300 cursor-pointer hover:text-theme_gold">
+          <li className="hover:scale-110 transform transition-transform duration-300 cursor-pointer hover:text-theme_gold">
             About
-          </ul>
+          </li>
         </Link>
         <Link to={'/sahieast/news'}>
-          <ul className="hover:scale-110 transform transition-transform duration-300 cursor-pointer hover:text-theme_gold">
+          <li className="hover:scale-110 transform transition-transform duration-300 cursor-pointer hover:text-theme_gold">
             News
 
-          </ul>
+          </li>
         </Link>
-        <ul className="hover:scale-110 transform transition-transform duration-300 cursor-pointer hover:text-theme_gold">
+        {/* <li className="hover:scale-110 transform transition-transform duration-300 cursor-pointer hover:text-theme_gold">
           Gallery
-        </ul>
+        </li> */}
         <Link to={'/sahieast/videos'}>
-          <ul className="hover:scale-110 transform transition-transform duration-300 cursor-pointer hover:text-theme_gold">
+          <li className="hover:scale-110 transform transition-transform duration-300 cursor-pointer hover:text-theme_gold">
             Videos
             {onLive &&
               <svg className="absolute left-5 -top-2 animate-bounce h-5 w-5">
@@ -80,19 +80,19 @@ const Nav = ({onLive}) => {
                   style={style}
                 />
               </svg>}
-          </ul>
+          </li>
         </Link>
         <Link to={'/sahieast/downloads'}>
-          <ul className=" hover:scale-110 transform transition-transform duration-300 cursor-pointer hover:text-theme_gold">
+          <li className=" hover:scale-110 transform transition-transform duration-300 cursor-pointer hover:text-theme_gold">
             Downloads
-          </ul>
+          </li>
         </Link>
         <Link to={'/sahieast/results'}>
-          <ul className="text-theme_gold hover:scale-110 transform transition-transform duration-300 cursor-pointer hover:text-theme_red">
+          <li className="text-theme_gold hover:scale-110 transform transition-transform duration-300 cursor-pointer hover:text-theme_red">
             Results
-          </ul>
+          </li>
         </Link>
-      </li>
+      </ul>
 
       <Menu as="div" className=" md:hidden relative inline-block text-left">
         <div>
@@ -148,14 +148,14 @@ const Nav = ({onLive}) => {
               </Link>
             </MenuItem>
 
-            <MenuItem>
+            {/* <MenuItem>
               <a
                 href="#"
                 className="block px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100 data-[focus]:text-gray-900"
               >
                 Gallery
               </a>
-            </MenuItem>
+            </MenuItem> */}
 
             <MenuItem>
               <Link to={'/sahieast/videos'}>

@@ -24,22 +24,22 @@ const Videos = () => {
 
                   <iframe
                     className=""
-                    src="https://www.youtube.com/embed/lE1lSbexl7k"
+                    src="https://www.youtube.com/embed/rkLU1MHRtv8?si=MegD99cC2fu5Tclq"
                     frameborder="0"
                   />
                 </div>
-                <h1 className='mt-3 font-medium text-xl'>Stage 01 | Festival of Hope</h1>
+                <h1 className='mt-3 font-medium text-xl'>Stage 01 | Festival of Hope <span className='text-red-600 animate-pulse'>SOON</span></h1>
               </div>
               <div>
                 <div className="aspect-w-16 aspect-h-9">
 
                   <iframe
                     className=""
-                    src="https://www.youtube.com/embed/lE1lSbexl7k"
+                    src="https://www.youtube.com/embed/rkLU1MHRtv8?si=MegD99cC2fu5Tclq"
                     frameborder="0"
                   />
                 </div>
-                <h1 className='mt-3 font-medium text-xl'>Stage 01 | Festival of Hope</h1>
+                <h1 className='mt-3 font-medium text-xl'>Stage 01 | Festival of Hope <span className='text-red-600 animate-pulse'>SOON</span></h1>
               </div>
             </div>
 
@@ -49,36 +49,11 @@ const Videos = () => {
               <div className="aspect-w-16 aspect-h-9">
                 <iframe
                   className="w-full h-full"
-                  src="https://www.youtube.com/embed/lE1lSbexl7k"
+                  src="https://www.youtube.com/embed/rkLU1MHRtv8?si=MegD99cC2fu5Tclq"
                   frameborder="0"
                 />
               </div>
-              <div className="aspect-w-16 aspect-h-9">
-                <iframe
-                  className="w-full h-full"
-                  src="https://www.youtube.com/embed/lE1lSbexl7k"
-                  frameborder="0"
-                />
-              </div>
-              <div className="aspect-w-16 aspect-h-9">
-                <iframe
-                  className="w-full h-full"
-                  src="https://www.youtube.com/embed/lE1lSbexl7k"
-                  frameborder="0"
-                />
-              </div><div className="aspect-w-16 aspect-h-9">
-                <iframe
-                  className="w-full h-full"
-                  src="https://www.youtube.com/embed/lE1lSbexl7k"
-                  frameborder="0"
-                />
-              </div><div className="aspect-w-16 aspect-h-9">
-                <iframe
-                  className="w-full h-full"
-                  src="https://www.youtube.com/embed/lE1lSbexl7k"
-                  frameborder="0"
-                />
-              </div>
+              
             </div>
           </div>
         </div>

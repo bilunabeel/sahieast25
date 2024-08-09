@@ -10,7 +10,7 @@ const NewsCnt = () => {
   return (
     <section className="mt-16 max-container padding-y padding-x ">
       <div className="mb-8 flex max-md:flex-col max-md:items-start justify-between items-end ">
-        <img className="md:w-2/3 h-auto mb-2 md:mb-6" src="1.jpg" alt="" />
+        <img className="md:w-2/3 h-auto mb-2 md:mb-6" src="press.jpg" alt="" />
         <div className="mb-5 max-md:hidden">
           <h2 className="font-poppins mb-2 text-gray-400">August 07, 2024</h2>
           <a href="https://whatsapp.com/channel/0029Vahbl5FKWEKmOoxvzj0D"><h2 className="flex items-center cursor-pointer gap-2 leading-4 font-semibold">

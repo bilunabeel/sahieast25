@@ -2,7 +2,7 @@ import React from 'react'
 
 const Downloads = () => {
 
-  const docs = [{name:"Brochure",file:"BROCHURE FESTIVAL OF HOPE.pdf"},{name:"Day 01",file:"Day 01.pdf"},{name:"Day 02",file:"Day 02.pdf"},{name:"Day 03",file:"Day 03.pdf"},]
+  const docs = [{name:"Brochure",file:"BROCHURE FESTIVAL OF HOPE.pdf"},{name:"Schedule Day 01",file:"Day 01.pdf"},{name:"Schedule Day 02",file:"Day 02.pdf"},{name:"Schedule Day 03",file:"Day 03.pdf"},]
   return (
     <section className="mt-16 padding-y padding-x max-container">
       <h1 className=" mb-8 text-left font-mono text-4xl text-theme_black">

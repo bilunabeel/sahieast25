@@ -3,7 +3,10 @@ import {GiTrophyCup} from 'react-icons/gi';
 import AnimatedCounter from './AnimatedCounter';
 
 const Score = ({scoreOn, setScoreOn}) => {
+
   const scoreRef = useRef (null);
+  const winners= [{team:'Kondotty',Point:0},{team:'Areekode',Point:0},{team:'Pulikkal',Point:0}] 
+  const teamPoints = [{team:'Edakkara',Point:0},{team:'Nilambur',Point:0},{team:'Kolathur',Point:0},{team:'Manjeri East',Point:0},{team:'Manjeri West',Point:0},{team:'Perinthalmanna',Point:0},{team:'Malappuram',Point:0},{team:'Wandoor',Point:0}]
 
   const handleToggle = () => {
     setScoreOn (!scoreOn);
@@ -46,90 +49,27 @@ const Score = ({scoreOn, setScoreOn}) => {
             <div className="bg-black h-[.1px] w-full my-2" />
 
             <ul className="text-xl font-semibold">
-              <li className="flex items-center gap-3">
-                Kondotty
+              {winners.map((winner)=>(<li className="flex items-center gap-3">
+                {winner.team}
                 {' '}
                 <span className=" text-2xl">
-                  <AnimatedCounter endValue={300} duration={1000} />
+                 {winner.Point>0 ? <AnimatedCounter endValue={winner.Point} duration={1000} />:0}
                 </span>
-              </li>
-              <li className="flex items-center gap-3">
-                Areekode
-                {' '}
-                <span className=" text-2xl">
-                  <AnimatedCounter endValue={300} duration={1000} />
-                </span>
-                {' '}
-              </li>
-              <li className="flex items-center gap-3">
-                Pulikkal
-                {' '}
-                <span className=" text-2xl">
-                  <AnimatedCounter endValue={300} duration={1000} />
-                </span>
-                {' '}
-              </li>
+              </li>))}
+              
             </ul>
 
             <div className="bg-black w-full h-[.1px] my-2" />
 
             <ul className="text-lg">
-              <li className="flex items-center gap-3">
-                Malappuram
+              {teamPoints.map((team)=>(<li className="flex items-center gap-3">
+                {team.team}
                 {' '}
                 <span className=" text-xl">
-                  <AnimatedCounter endValue={300} duration={1000} />
+                  {team.Point>0 ? <AnimatedCounter endValue={0} duration={1000} /> :0}
                 </span>
-              </li>
-              <li className="flex items-center gap-3">
-                Edakkara
-                {' '}
-                <span className=" text-xl">
-                  <AnimatedCounter endValue={300} duration={1000} />
-                </span>
-              </li>
-              <li className="flex items-center gap-3">
-                Nilambur
-                {' '}
-                <span className=" text-xl">
-                  <AnimatedCounter endValue={300} duration={1000} />
-                </span>
-              </li>
-              <li className="flex items-center gap-3">
-                Kolathur
-                {' '}
-                <span className=" text-xl">
-                  <AnimatedCounter endValue={300} duration={1000} />
-                </span>
-              </li>
-              <li className="flex items-center gap-3">
-                Manjeri West
-                {' '}
-                <span className=" text-xl">
-                  <AnimatedCounter endValue={300} duration={1000} />
-                </span>
-              </li>
-              <li className="flex items-center gap-3">
-                Manjeri East
-                {' '}
-                <span className=" text-xl">
-                  <AnimatedCounter endValue={300} duration={1000} />
-                </span>
-              </li>
-              <li className="flex items-center gap-3">
-                Pulikkal
-                {' '}
-                <span className=" text-xl">
-                  <AnimatedCounter endValue={300} duration={1000} />
-                </span>
-              </li>
-              <li className="flex items-center gap-3">
-                Perinthalmanna
-                {' '}
-                <span className=" text-xl">
-                  <AnimatedCounter endValue={300} duration={1000} />
-                </span>
-              </li>
+              </li>)) }
+              
             </ul>
 
           </div>

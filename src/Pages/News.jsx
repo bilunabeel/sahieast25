@@ -24,7 +24,7 @@ const News = () => {
             <a href="#">
               <img
                 className="rounded-tr-3xl rounded-bl-3xl shadow-lg hover:scale-105 transform transition-transform duration-300 relative"
-                src="1.jpg"
+                src="press.jpg"
                 alt=""
               />
             </a>

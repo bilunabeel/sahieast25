@@ -5,16 +5,17 @@ import AnimatedCounter from '../components/AnimatedCounter';
 const Counts = () => {
   const countsElements = [
     {cnt: 3, elem: 'Days'},
-    {cnt: 10, elem: 'Stages'},
+    {cnt: 12, elem: 'Stages'},
     {cnt: 11, elem: 'Teams'},
-    {cnt: 200, elem: 'Events'},
-    {cnt: 2000, elem: 'Participants'},
+    {cnt: 168, elem: 'Events'},
+    {cnt: 3000, elem: 'Participants'},
+    
   ];
 
   
 
   return (
-    <section className="relative ">
+    <section className="relative max-md:hidden">
 
       <img src={CountBar} className="w-full h-auto " alt="" />
 

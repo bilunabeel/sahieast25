@@ -4,7 +4,7 @@ import LogoHoriWhite from '../assets/logo_hori_white.svg';
 
 const Hero = () => {
   return (
-    <section className="bg-opacity-70 bg-black flex h-[100vh] justify-center">
+    <section className="bg-opacity-75 bg-black flex h-[100vh] justify-center">
 
 
       {/* <div className=" bg-black opacity-75 absolute  w-full h-full" /> */}

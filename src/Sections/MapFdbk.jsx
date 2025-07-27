@@ -25,7 +25,7 @@ const MapFdbk = () => {
   return (
     <section className="max-container padding-y padding-x font-poppins">
       <div className="flex gap-8 max-md:flex-col">
-        <div className="flex flex-col w-full gap-6">
+        {/* <div className="flex flex-col w-full gap-6">
           <h1 className="font-poppins font-semibold text-2xl text-center">
             Share with <span className="text-theme_gold">us</span>
           </h1>
@@ -71,7 +71,7 @@ const MapFdbk = () => {
           </form>
           {response && <p className="mt-4">{response}</p>}
         </div>
-        <div className="w-[.2px] h-auto bg-theme_black max-md:hidden" />
+        <div className="w-[.2px] h-auto bg-theme_black max-md:hidden" /> */}
         <div className="h-96 w-full flex flex-col gap-6">
           <h1 className="font-poppins font-semibold text-2xl text-center">
             Reach <span className="text-theme_gold">us</span>

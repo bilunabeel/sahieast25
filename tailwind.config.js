@@ -47,7 +47,7 @@ export default {
         poppins: ["Poppins", "sans-serif"],
         mono: ["MonoRG", "sans-serif"],
         ppneue:["Ppneuebit","sans-serif"],
-        baloo: ["'Baloo Chettan 2'", "sans-serif"],
+        karthika:["Karthika","sans-serif"]
       },
       colors: {
         light_gray: "#f4f4f4",

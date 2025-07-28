@@ -6,8 +6,8 @@
 
 
 @font-face {
-  font-family: "MonoRG";
-  src: url("./fonts/MONO-RGOMODULAR-Regular.otf") format("opentype");
+  font-family: "Karthika";
+  src: url("./fonts/MLU-Karthika.ttf") format("opentype");
   font-weight: 400;
   font-style: normal;
 }
@@ -16,20 +16,6 @@
   font-family: "Ppneuebit";
   src: url("./fonts/ppneuebit-bold.otf") format("opentype");
   font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "MonoRG";
-  src: url("./fonts/MONO-RGOMODULAR-SemiBold.otf") format("opentype");
-  font-weight: 600;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "MonoRG";
-  src: url("./fonts/MONO-RGOMODULAR-Bold.otf") format("opentype");
-  font-weight: 700;
   font-style: normal;
 }
 

@@ -11,16 +11,16 @@ const About = () => {
   return (
     <section className="mt-16 bg-primary_black">
       <div className="h-96 w-full overflow-hidden">
-        <img src="/4.jpg" className="md:-mt-96" alt="" />
+        <img src="/4.jpg" className="w-full h-[400px] max-lg:h-72 absolute object-cover " alt="" />
       </div>
-      <img src={RibbonNoBG} className='-mt-36' />
+      <img src={RibbonNoBG} className='-mt-20 max-lg:-mt-36 z-10 relative overflow-hidden' />
       <div className="max-container padding-y padding-x">
-        <h1 className=" mb-8 text-left font-ppneue text-8xl text-white">
+        <h1 className="leading-[.7] mb-8 text-left font-ppneue text-8xl max-sm:text-[75px] text-white">
           <span className="text-aquamarine">Hope</span>
           {' '}
           through
           {' '}
-          <span className="text-celestial_blue">sahityotsav</span>
+          <span className="text-celestial_blue">Sahityotsav</span>
         </h1>
         <div className="flex max-md:flex-col max-md:items-center justify-between gap-12">
           <p className="font-grotesk text-white md:w-2/3">

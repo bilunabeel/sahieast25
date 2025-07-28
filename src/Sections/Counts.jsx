@@ -20,7 +20,7 @@ const Counts = () => {
       <img src={CountBar} className="w-full h-auto " alt="" />
 
       
-        <div className="font-poppins font-light absolute inset-0 text-white text-center justify-center items-center max-md:bg-none bg-black bg-opacity-20 flex max-lg:gap-10 gap-20">
+        <div className="font-grotesk font-light absolute inset-0 text-white text-center justify-center items-center max-md:bg-none bg-black bg-opacity-20 flex max-lg:gap-10 gap-20">
           {countsElements.map (em => (
             <div className='max-md:hidden'>
               <h1 className="text-4xl max-lg:text-2xl"><AnimatedCounter endValue={em.cnt} duration={2} /></h1>

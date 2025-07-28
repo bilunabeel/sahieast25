@@ -43,7 +43,7 @@ const Score = ({scoreOn, setScoreOn}) => {
           className="w-72 flex animate-fade-right animate-duration-100"
         >
           {/* <div className="w-0 h-0 border-r-[15px] border-r-theme_yellow border-b-[15px] border-b-transparent" /> */}
-          <div className="p-8 w-72 ml-2 bg-theme_yellow font-poppins rounded-3xl flex flex-col">
+          <div className="p-8 w-72 ml-2 bg-aquamarine font-grotesk rounded-3xl flex flex-col">
             <h1 className="font-semibold text-xl text-left">Score Board</h1>
 
             <div className="bg-black h-[.1px] w-full my-2" />

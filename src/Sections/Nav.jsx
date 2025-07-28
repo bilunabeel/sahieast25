@@ -34,7 +34,7 @@ const Nav = ({onLive}) => {
   }, []);
 
   return (
-    <nav className="font-poppins font-normal top-0 m-0 fixed z-20 bg-primary_black text-white_text w-full h-16 padding-x flex justify-between items-center shadow-md">
+    <nav className="font-grotesk font-normal top-0 m-0 fixed z-20 bg-primary_black text-white_text w-full h-16 padding-x flex justify-between items-center shadow-md">
 
       {/* ------NavFace------ */}
       <Link to={'/'}>
@@ -50,17 +50,17 @@ const Nav = ({onLive}) => {
       {/* ------Menubar------  */}
       <ul className="flex gap-5 max-md:hidden">
         <Link to={'/'}>
-          <li className="hover:scale-110 transform transition-transform duration-300 cursor-pointer hover:text-theme_gold">
+          <li className="hover:scale-110 transform transition-transform duration-300 cursor-pointer hover:text-celestial_blue">
             Home
           </li>
         </Link>
         <Link to={'/sahieast/about'}>
-          <li className="hover:scale-110 transform transition-transform duration-300 cursor-pointer hover:text-theme_gold">
+          <li className="hover:scale-110 transform transition-transform duration-300 cursor-pointer hover:text-celestial_blue">
             About
           </li>
         </Link>
         <Link to={'/sahieast/news'}>
-          <li className="hover:scale-110 transform transition-transform duration-300 cursor-pointer hover:text-theme_gold">
+          <li className="hover:scale-110 transform transition-transform duration-300 cursor-pointer hover:text-celestial_blue">
             News
 
           </li>
@@ -69,7 +69,7 @@ const Nav = ({onLive}) => {
           Gallery
         </li> */}
         <Link to={'/sahieast/videos'}>
-          <li className="hover:scale-110 transform transition-transform duration-300 cursor-pointer hover:text-theme_gold">
+          <li className="hover:scale-110 transform transition-transform duration-300 cursor-pointer hover:text-celestial_blue">
             Videos
             {onLive &&
               <svg className="absolute left-5 -top-2 animate-bounce h-5 w-5">
@@ -81,7 +81,7 @@ const Nav = ({onLive}) => {
           </li>
         </Link>
         <Link to={'/sahieast/downloads'}>
-          <li className=" hover:scale-110 transform transition-transform duration-300 cursor-pointer hover:text-theme_gold">
+          <li className=" hover:scale-110 transform transition-transform duration-300 cursor-pointer hover:text-celestial_blue">
             Downloads
           </li>
         </Link>
@@ -94,7 +94,7 @@ const Nav = ({onLive}) => {
 
       <Menu as="div" className=" md:hidden relative inline-block text-left">
         <div>
-          <MenuButton className=" bg-none  text-gray-900">
+          <MenuButton className=" bg-none  text-aquamarine">
 
             <Sling
               toggle={setOpen}
@@ -107,7 +107,7 @@ const Nav = ({onLive}) => {
           ref={menuRef}
           transition
           
-          className="absolute right-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 transition focus:outline-none data-[closed]:scale-95 data-[closed]:transform data-[closed]:opacity-0 data-[enter]:duration-100 data-[leave]:duration-75 data-[enter]:ease-out data-[leave]:ease-in"
+          className="absolute right-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-primary_black shadow-lg ring-1 ring-black ring-opacity-5 transition focus:outline-none data-[closed]:scale-95 data-[closed]:transform data-[closed]:opacity-0 data-[enter]:duration-100 data-[leave]:duration-75 data-[enter]:ease-out data-[leave]:ease-in"
         >
           <div className="py-1">
 
@@ -115,7 +115,7 @@ const Nav = ({onLive}) => {
               <Link to={'/'}>
                 <a
                   href="#"
-                  className="block px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100 data-[focus]:text-gray-900"
+                  className="block px-4 py-2 text-sm text-white data-[focus]:bg-gray-100 data-[focus]:text-gray-900"
                 >
 
                   Home
@@ -127,7 +127,7 @@ const Nav = ({onLive}) => {
               <Link to={'/sahieast/about'}>
                 <a
                   href="#"
-                  className="block px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100 data-[focus]:text-gray-900"
+                  className="block px-4 py-2 text-sm text-white data-[focus]:bg-gray-100 data-[focus]:text-gray-900"
                 >
 
                   About
@@ -139,7 +139,7 @@ const Nav = ({onLive}) => {
               <Link to={'/sahieast/news'}>
                 <a
                   href="#"
-                  className="block px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100 data-[focus]:text-gray-900"
+                  className="block px-4 py-2 text-sm text-white data-[focus]:bg-gray-100 data-[focus]:text-gray-900"
                 >
                   News
                 </a>
@@ -159,7 +159,7 @@ const Nav = ({onLive}) => {
               <Link to={'/sahieast/videos'}>
                 <a
                   href="#"
-                  className="flex gap-1  px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100 data-[focus]:text-gray-900"
+                  className="flex gap-1  px-4 py-2 text-sm text-white data-[focus]:bg-gray-100 data-[focus]:text-gray-900"
                 >
                   Videos
                   {onLive &&
@@ -177,7 +177,7 @@ const Nav = ({onLive}) => {
               <Link to={'/sahieast/downloads'}>
                 <a
                   href="#"
-                  className="block px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100 data-[focus]:text-gray-900"
+                  className="block px-4 py-2 text-sm text-white data-[focus]:bg-gray-100 data-[focus]:text-gray-900"
                 >
                   Downloads
                 </a>
@@ -187,7 +187,7 @@ const Nav = ({onLive}) => {
               <Link to={'/sahieast/results'}>
                 <a
                   href="#"
-                  className="block px-4 py-2 text-sm text-theme_gold data-[focus]:bg-gray-100 data-[focus]:text-gray-900"
+                  className="block px-4 py-2 text-sm text-aquamarine data-[focus]:bg-gray-100 data-[focus]:text-gray-900"
                 >
                   Results
                 </a>

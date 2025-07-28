@@ -12,25 +12,26 @@ const News = () => {
   }, []);
   
   return (
+    <div className='bg-primary_black'>
     <section className="mt-16 padding-y padding-x max-container">
-      <h1 className=" mb-8 text-left font-mono text-4xl text-theme_black">
+      <h1 className=" mb-8 text-left font-ppneue text-8xl text-aquamarine">
         News
       </h1>
       <div className=" grid max-lg:grid-cols-2 max-sm:grid-cols-1 grid-cols-3 gap-8 ">
 
         
         <Link to={'/sahieast/newscnt'}>
-          <div className="w-full h-full overflow-hidden rounded-tr-3xl rounded-bl-3xl shadow-xl">
+          <div className="bg-white w-full h-full overflow-hidden rounded-tr-3xl rounded-bl-3xl shadow-xl">
             <a href="#">
               <img
                 className="rounded-tr-3xl rounded-bl-3xl shadow-lg hover:scale-105 transform transition-transform duration-300 relative"
-                src="press.jpg"
+                src="/press.jpg"
                 alt=""
               />
             </a>
             <div className="p-5">
               <a href="#">
-                <h5 className="font-baloo   mb-2 text-lg max-w-lg  font-bold tracking-tight text-theme_black">
+                <h5 className="font-baloo   mb-2 text-lg max-w-lg  font-bold tracking-tight text-grape">
                   മുപ്പത്തിയൊന്നാമത് മലപ്പുറം ഈസ്റ്റ് ജില്ലാ സാഹിത്യോത്സവിനു എടവണ്ണപ്പാറയിൽ നാളെ തുടക്കമാകും.
 
                 </h5>
@@ -44,7 +45,7 @@ const News = () => {
             </div>
             <a
                 href="#"
-                class="p-5 inline-flex items-center text-sm font-medium text-center text-theme_red"
+                class="p-5 inline-flex items-center text-sm font-medium text-center text-grape"
               >
                 Read more
                 <svg
@@ -65,9 +66,10 @@ const News = () => {
               </a>
           </div>
         </Link>
+        
 
       </div>
-    </section>
+    </section></div>
   );
 };
 

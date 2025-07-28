@@ -80,10 +80,8 @@ const MapFdbk = () => {
             Reach <span className="text-aquamarine">us</span>
           </h1>
           <div className="h-80 bg-primary_black">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3913.217264879599!2d75.97413362512978!3d11.245421688933272!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba6443a70c74a35%3A0xac07e1e4c7c583d7!2sEdavannappara%2C%20Kerala%20673640!5e0!3m2!1sen!2sin!4v1722859066236!5m2!1sen!2sin"
-              className="h-full w-full rounded-2xl"
-            />
+            
+          <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3986.084765566754!2d75.98414307987969!3d11.134022960770759!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTHCsDA4JzAyLjUiTiA3NcKwNTknMjAuNSJF!5e1!3m2!1sen!2sus!4v1753702168374!5m2!1sen!2sus&maptype=roadmap" className='h-full w-full rounded-2xl'></iframe>
           </div>
         </div>
       </div>

@@ -23,7 +23,10 @@ const MapFdbk = () => {
   };
 
   return (
-    <section className="max-container padding-y padding-x font-poppins">
+    <div className='bg-primary_black'>
+      
+    
+    <section className=" max-container padding-y padding-x font-poppins">
       <div className="flex gap-8 max-md:flex-col">
         {/* <div className="flex flex-col w-full gap-6">
           <h1 className="font-poppins font-semibold text-2xl text-center">
@@ -73,18 +76,19 @@ const MapFdbk = () => {
         </div>
         <div className="w-[.2px] h-auto bg-theme_black max-md:hidden" /> */}
         <div className="h-96 w-full flex flex-col gap-6">
-          <h1 className="font-poppins font-semibold text-2xl text-center">
-            Reach <span className="text-theme_gold">us</span>
+          <h1 className="font-grotesk text-white font-semibold text-2xl text-center">
+            Reach <span className="text-aquamarine">us</span>
           </h1>
-          <div className="h-80 bg-light_gray">
+          <div className="h-80 bg-primary_black">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3913.217264879599!2d75.97413362512978!3d11.245421688933272!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba6443a70c74a35%3A0xac07e1e4c7c583d7!2sEdavannappara%2C%20Kerala%20673640!5e0!3m2!1sen!2sin!4v1722859066236!5m2!1sen!2sin"
-              className="h-full w-full"
+              className="h-full w-full rounded-2xl"
             />
           </div>
         </div>
       </div>
     </section>
+    </div>
   );
 };
 

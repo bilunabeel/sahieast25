@@ -43,18 +43,25 @@ export default {
         }
       },
       fontFamily: {
+        grotesk:["Space Grotesk","sans-serif"],
         poppins: ["Poppins", "sans-serif"],
         mono: ["MonoRG", "sans-serif"],
+        ppneue:["Ppneuebit","sans-serif"],
         baloo: ["'Baloo Chettan 2'", "sans-serif"],
       },
       colors: {
         light_gray: "#f4f4f4",
+        aquamarine:"#22ffaa",
+        celestial_blue:"#4275cb",
+        grape:"#691c98",
         text_gray: "#535253",
         theme_gold: "#bf9966",
         theme_green: "#69b295",
         theme_yellow: "#d8c46f",
         theme_red: "#d35f59",
         theme_black: "#3d3d3d",
+        white_text:"#ffff",
+        primary_black:"#0f0f0f"
       },
     },
   },

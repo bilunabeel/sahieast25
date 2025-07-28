@@ -2,10 +2,19 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@400..800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
 
 @font-face {
   font-family: "MonoRG";
   src: url("./fonts/MONO-RGOMODULAR-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Ppneuebit";
+  src: url("./fonts/ppneuebit-bold.otf") format("opentype");
   font-weight: 400;
   font-style: normal;
 }

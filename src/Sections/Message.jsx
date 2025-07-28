@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Logo from '../assets/Logo.svg'
+import herologo from '../assets/herologo.svg'
 import SahiLogo from '../assets/SahiLogoWhiteBG.svg'
 import useIntersectionObserver from '../hooks/useIntersectionObserver';
 
@@ -26,25 +26,23 @@ const Message = () => {
   });
 
   return (
-    <section className="z-10 bg-white  ">
+    <section className="z-10 bg-primary_black  ">
       
       {/* //what's hope? */}
       <div className="max-container text-left flex justify-between items-center max-md:flex-col-reverse gap-16 padding-y padding-x">
-        <div ref={targetRef} className={`flex flex-col gap-5 w-full  ${isInView ? 'animate-fade-left' : 'opacity-0 '} transition-all duration-1000`}>
-          <h1 className="text-4xl font-mono ">What's festival of Hope?</h1>
-          <p className="font-light font-poppins">
-          Real change begins when we choose hope. By believing that we have the power to make an impact, we take the first step on the journey to changing our world. The choice is yours. But you are not alone.
-<br />
-        
-          This year, Malappuram East District Sahityotsav celebrates the hope that burns brightest in the hearts of the marginalized. We will amplify the voices of minorities and disadvantaged communities, showcasing their struggles and aspirations through literature, poetry, and discourse.
+        <div ref={targetRef} className={`flex flex-col gap-8 w-full  ${isInView ? 'animate-fade-left' : 'opacity-0 '} transition-all duration-1000`}>
+          <h1 className="text-8xl leading-[.59] font-ppneue text-aquamarine">What's <br /><span className='text-celestial_blue'>The In-Betweens?</span></h1>
+          <p className="font-light text-white font-grotesk leading-5">
+      
+        The In-Betweens are the spaces and moments that holds us together, the unseen rope that binds us despite our countless diversities. The soul of the theme is embedded in the style and design of the identity of the festival. Multifont typography - an extension of Typographic Dualism - is used in the title fonts. The idea at the core of Typographic Dualism is harmony, the fonts are “contrasting but complementary” - just like humans and the universe itself. Gradients are used to denote a continuity, which brings us back to the theme.
 
           </p>
 
         </div>
         <div className={`flex w-full gap-4 ${isInView ? 'animate-fade-right' : 'opacity-0 '} transition-all duration-1000`}>
 
-          <img src={Logo} className="h-64 max-md:h-40 w-full" alt="" />
-          <img src={SahiLogo} className="h-64 max-md:h-40 w-full" alt="" />
+          <img src={herologo} className="h-64 max-md:h-40 w-full" alt="" />
+          {/* <img src={SahiLogo} className="h-64 max-md:h-40 w-full" alt="" /> */}
         </div>
       </div>
 

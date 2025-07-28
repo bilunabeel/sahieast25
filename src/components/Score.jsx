@@ -32,7 +32,7 @@ const Score = ({scoreOn, setScoreOn}) => {
 
       <div
         onClick={handleToggle}
-        className="h-16 w-10 hover:w-12  bg-theme_yellow rounded-r-full flex justify-center items-center cursor-pointer hover:bg-theme_gold transition-all duration-300 ease-in-out"
+        className="h-16 w-10 hover:w-12  bg-celestial_blue rounded-r-full flex justify-center items-center cursor-pointer hover:bg-grape transition-all duration-300 ease-in-out"
       >
         <GiTrophyCup />
       </div>

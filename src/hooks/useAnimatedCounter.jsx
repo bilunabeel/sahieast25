@@ -8,8 +8,8 @@ const useAnimatedCounter = (endValue, duration) => {
 
       let endnum = 0;
       
-      if (endValue > 1500) {
-        endnum = 1500;
+      if (endValue > 2800) {
+        endnum = 2800;
       } else {
         endnum = 0;
       }

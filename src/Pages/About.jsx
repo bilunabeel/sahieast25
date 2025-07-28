@@ -11,7 +11,7 @@ const About = () => {
   return (
     <section className="mt-16 bg-primary_black">
       <div className="h-96 w-full overflow-hidden">
-        <img src="/4.jpg" className="w-full h-[400px] max-lg:h-72 absolute object-cover " alt="" />
+        <img src="4.jpg" className="w-full h-[400px] max-lg:h-72 absolute object-cover " alt="" />
       </div>
       <img src={RibbonNoBG} className='-mt-20 max-lg:-mt-36 z-10 relative overflow-hidden' />
       <div className="max-container padding-y padding-x">

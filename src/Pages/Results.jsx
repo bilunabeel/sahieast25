@@ -5,31 +5,40 @@ const Results = () => {
   const [categories, setCategories] = useState([]);
   const [programs, setPrograms] = useState([]);
 
+  const [selectedCategory, setSelectedCategory] = useState('');
+  const [filteredPrograms, setFilteredPrograms] = useState([]);
+
   useEffect(() => {
     window.scrollTo(0, 0);
-
-    // Fetch data from API
     const fetchData = async () => {
       try {
         const res = await fetch('https://us-central1-mlpeast.cloudfunctions.net/api/init');
         const data = await res.json();
         setCategories(data.data.categories || []);
         setPrograms(data.data.allPrograms || []);
-        // console.log(data.data.categories);
-        console.log(data.data.allPrograms);
       } catch (err) {
         console.error("Failed to fetch data:", err);
-        
       }
     };
 
     fetchData();
   }, []);
 
+  // When category changes, filter programs
+  useEffect(() => {
+    if (selectedCategory) {
+      const filtered = programs.filter(
+        (program) => program.categoryId === selectedCategory
+      );
+      setFilteredPrograms(filtered);
+    } else {
+      setFilteredPrograms([]);
+    }
+  }, [selectedCategory, programs]);
+
   return (
     <section className="mt-16 bg-grape">
       <div className="max-container padding-y padding-x">
-
         <h1 className="mb-8 text-left font-ppneue text-8xl text-white">Results</h1>
         <div className="grid grid-cols-2 max-md:grid-cols-1 gap-6">
           <div>
@@ -39,10 +48,13 @@ const Results = () => {
                 <select
                   id="category"
                   className="appearance-none cursor-pointer mb-6 rounded-xl hover:bg-gray-300 bg-light_gray border block w-full p-3"
+                  onChange={(e) => setSelectedCategory(e.target.value)}
                 >
-                  <option selected disabled>Select Category</option>
-                  {categories.map((cat, i) => (
-                    <option key={i} value={cat}>{cat.name}</option>
+                  <option value="">Select Category</option>
+                  {categories.map((cat) => (
+                    <option key={cat.id} value={cat.id}>
+                      {cat.name}
+                    </option>
                   ))}
                 </select>
                 <div className="pointer-events-none text-sm absolute inset-y-0 right-4 flex items-center text-theme_black">▼</div>
@@ -53,10 +65,13 @@ const Results = () => {
                 <select
                   id="program"
                   className="appearance-none cursor-pointer mb-6 rounded-xl hover:bg-gray-300 bg-light_gray border block w-full p-3"
+                  disabled={!selectedCategory}
                 >
-                  <option selected disabled>Select Item</option>
-                  {programs.map((prog, i) => (
-                    <option key={i} value={prog}>{prog.name}</option>
+                  <option value="">Select Program</option>
+                  {filteredPrograms.map((prog) => (
+                    <option key={prog.id} value={prog.id}>
+                      {prog.name}
+                    </option>
                   ))}
                 </select>
                 <div className="pointer-events-none text-sm absolute inset-y-0 right-4 flex items-center text-theme_black">▼</div>

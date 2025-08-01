@@ -28,7 +28,6 @@ const Nav = ({onLive}) => {
 
     return () => {
       document.removeEventListener ('mousedown', handleClickOutside);
-
     };
   }, []);
 
@@ -84,28 +83,34 @@ const Nav = ({onLive}) => {
             Downloads
           </li>
         </Link>
-        <Link to={'/results'}>
+        {/* <Link to={'/results'}>
           <li className="text-aquamarine hover:scale-110 transform transition-transform duration-300 cursor-pointer hover:text-celestial_blue">
             Results
           </li>
-        </Link>
+        </Link> */}
+        <li className="text-aquamarine hover:scale-110 transform transition-transform duration-300 cursor-pointer hover:text-celestial_blue">
+          <a
+            href="https://mlpeast.web.app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Results
+          </a>
+        </li>
+
       </ul>
 
       <Menu as="div" className=" md:hidden relative inline-block text-left">
         <div>
           <MenuButton className=" bg-none  text-aquamarine">
 
-            <Sling
-              toggle={setOpen}
-              toggled={isOpen}
-            />
+            <Sling toggle={setOpen} toggled={isOpen} />
           </MenuButton>
         </div>
 
         <MenuItems
           ref={menuRef}
           transition
-          
           className="absolute right-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-primary_black shadow-lg ring-1 ring-black ring-opacity-5 transition focus:outline-none data-[closed]:scale-95 data-[closed]:transform data-[closed]:opacity-0 data-[enter]:duration-100 data-[leave]:duration-75 data-[enter]:ease-out data-[leave]:ease-in"
         >
           <div className="py-1">
@@ -121,7 +126,7 @@ const Nav = ({onLive}) => {
                 </a>
               </Link>
             </MenuItem>
-          
+
             <MenuItem>
               <Link to={'/about'}>
                 <a
@@ -173,8 +178,8 @@ const Nav = ({onLive}) => {
                 </a>
               </Link>
             </MenuItem>
-            
-            <MenuItem>
+
+            {/* <MenuItem>
               <Link to={'/results'}>
                 <a
                   href="#"
@@ -183,6 +188,17 @@ const Nav = ({onLive}) => {
                   Results
                 </a>
               </Link>
+            </MenuItem> */}
+
+            <MenuItem>
+              <a
+                href="https://mlpeast.web.app"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block px-4 py-2 text-sm text-aquamarine data-[focus]:bg-gray-100 data-[focus]:text-gray-900"
+              >
+                Results
+              </a>
             </MenuItem>
 
           </div>

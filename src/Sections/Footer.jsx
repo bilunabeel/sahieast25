@@ -17,11 +17,11 @@ const Footer = () => {
   const handleIntersection = (entries) => {
     const entry = entries[0];
     if (entry.isIntersecting && !isInView) {
-      console.log('is in view');
+      // console.log('is in view');
       setIsInView(true);
 
     }else if(!entry.isIntersecting && isInView){
-      console.log('is not in view');
+      // console.log('is not in view');
       setIsInView(false)
     }
   };

@@ -5,8 +5,7 @@ import {Menu, MenuButton, MenuItem, MenuItems} from '@headlessui/react';
 import Hamburger, {Sling} from 'hamburger-react';
 import Logo from '../assets/Logo.svg';
 import FestTitle from '../assets/FestTitle.svg';
-import News from '../Pages/News';
-import Results from '../Pages/Results';
+// import Results from '../Pages/Results';
 import {Link} from 'react-router-dom';
 import {MdOutlineLiveTv} from 'react-icons/md';
 

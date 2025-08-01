@@ -3,7 +3,6 @@ import {HashRouter as Router, Route, Routes, Navigate} from 'react-router-dom';
 
 import Home from './Home';
 import Nav from './Sections/Nav';
-import News from './Pages/News';
 import Results from './Pages/Results';
 import Footer from './Sections/Footer';
 import Live from './components/Live';
@@ -13,6 +12,7 @@ import NewsCnt from './Pages/NewsCnt';
 import Downloads from './Pages/Downloads';
 import Admin from './AdminSide/Admin';
 import About from './Pages/About';
+import News from './Pages/News';
 
 
 function App () {
@@ -32,7 +32,7 @@ function App () {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/news" element={<News />} />
-        <Route path="/newscnt" element={<NewsCnt />} />
+        <Route path="/newscnt/:id" element={<NewsCnt />} />
         <Route path="/downloads" element={<Downloads/>} />
         <Route path="/results" element={<Results />} />
         <Route path="/videos" element={<Videos />} />

@@ -22,7 +22,16 @@ const Videos = () => {
                 <div>
                   <div className="aspect-w-16 aspect-h-9">
 
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/EMZDpmXSweU?si=kGfcPQODxzrGtVnp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <iframe
+                      width="560"
+                      height="315"
+                      src="https://www.youtube.com/embed/55_leoeQEZY?si=hHrtAZeqFDG1v6zg"
+                      title="YouTube video player"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      referrerpolicy="strict-origin-when-cross-origin"
+                      allowfullscreen
+                    />
                   </div>
                   <h1 className="mt-3 font-medium text-xl">
                     The In Betweens | SSF Malappuram East | STAGE 01
@@ -33,7 +42,16 @@ const Videos = () => {
                 <div>
                   <div className="aspect-w-16 aspect-h-9">
 
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/EMZDpmXSweU?si=kGfcPQODxzrGtVnp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <iframe
+                      width="560"
+                      height="315"
+                      src="https://www.youtube.com/embed/jkhzmR1VZgM?si=jGmUucltXeNNYeaS"
+                      title="YouTube video player"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      referrerpolicy="strict-origin-when-cross-origin"
+                      allowfullscreen
+                    />
                   </div>
                   <h1 className="mt-3 font-medium text-xl">
                     The In Betweens | SSF Malappuram East | STAGE 02
@@ -49,9 +67,44 @@ const Videos = () => {
               <div className="grid grid-cols-2 gap-6">
 
                 <div className="aspect-w-16 aspect-h-9">
-                  <iframe width="560" height="315" src="https://www.youtube.com/embed/EMZDpmXSweU?si=kGfcPQODxzrGtVnp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                  <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/3oRwnqGq0j0?si=RhJtSdAUJX1HlXkQ"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  />
                 </div>
-                
+                <div className="aspect-w-16 aspect-h-9">
+                  <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/1VL7kXR925A?si=V8whOn5RT_n0L6h0"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  />
+                </div>
+                <div className="aspect-w-16 aspect-h-9">
+                  <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/hnQ-YxZl75M?si=JyIXEOrYJZwmIxDd"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  />
+                </div>
+                <div className="aspect-w-16 aspect-h-9">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/574TpMD4t7c?si=Lds8oeOT97bLLFBr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
 
               </div>
             </div>

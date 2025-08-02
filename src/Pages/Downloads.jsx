@@ -2,7 +2,7 @@ import React from 'react'
 
 const Downloads = () => {
 
-  const docs = [{name:"Katabook Brochure",file:"Kathabook Brochure.pdf"}]
+  const docs = [{name:"Katabook Brochure",file:"Kathabook Brochure.pdf"},{name:"In Betweens Brochure",file:"Brochure In Betweens.pdf"}]
   return (
     <div className='bg-primary_black'>
     <section className="mt-16 padding-y padding-x max-container">

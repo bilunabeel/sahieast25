@@ -1,3 +1,4 @@
+import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import { PiMedalFill, PiMedalBold, PiMedalLight } from 'react-icons/pi';
 
@@ -6,7 +7,14 @@ const Results = () => {
   const [programs, setPrograms] = useState([]);
 
   const [selectedCategory, setSelectedCategory] = useState('');
+    const [selectedProgram, setSelectedProgram] = useState('');
   const [filteredPrograms, setFilteredPrograms] = useState([]);
+
+   const [results, setResults] = useState([]);
+
+  const [filteredWinners, setFilteredWinners] = useState([]);
+
+
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -35,6 +43,27 @@ const Results = () => {
       setFilteredPrograms([]);
     }
   }, [selectedCategory, programs]);
+
+  useEffect(() => {
+    axios.get('YOUR_API_ENDPOINT/results')
+      .then(res => setResults(res.data))
+      .catch(err => console.error(err));
+  }, []);
+
+  useEffect(() => {
+    if (selectedCategory && selectedProgram) {
+      const match = results.find(
+        result =>
+          result.category === selectedCategory &&
+          result.program === selectedProgram
+      );
+      setFilteredWinners(match?.winners || []);
+      console.log(filteredWinners);
+      
+    } else {
+      setFilteredWinners([]);
+    }
+  }, [selectedCategory, selectedProgram, results]);
 
   return (
     <section className="mt-16 bg-grape">

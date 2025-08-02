@@ -25,9 +25,20 @@ const Videos = () => {
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/EMZDpmXSweU?si=kGfcPQODxzrGtVnp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                   </div>
                   <h1 className="mt-3 font-medium text-xl">
-                    The In Betweens | SSF Malappuram East
+                    The In Betweens | SSF Malappuram East | STAGE 01
                     {' '}
-                    <span className="text-red-600 animate-pulse">SOON</span>
+                    {/* <span className="text-red-600 animate-pulse">SOON</span> */}
+                  </h1>
+                </div>
+                <div>
+                  <div className="aspect-w-16 aspect-h-9">
+
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/EMZDpmXSweU?si=kGfcPQODxzrGtVnp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                  </div>
+                  <h1 className="mt-3 font-medium text-xl">
+                    The In Betweens | SSF Malappuram East | STAGE 02
+                    {' '}
+                    {/* <span className="text-red-600 animate-pulse">SOON</span> */}
                   </h1>
                 </div>
 

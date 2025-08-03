@@ -21,11 +21,10 @@ const Videos = () => {
 
                 <div>
                   <div className="aspect-w-16 aspect-h-9">
-
                     <iframe
                       width="560"
                       height="315"
-                      src="https://www.youtube.com/embed/55_leoeQEZY?si=hHrtAZeqFDG1v6zg"
+                      src="https://www.youtube.com/embed/sEQhtOqmBkw?si=mmogUQoKQoJ41hhp"
                       title="YouTube video player"
                       frameborder="0"
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -45,7 +44,7 @@ const Videos = () => {
                     <iframe
                       width="560"
                       height="315"
-                      src="https://www.youtube.com/embed/jkhzmR1VZgM?si=jGmUucltXeNNYeaS"
+                      src="https://www.youtube.com/embed/K068HNPqCzc?si=uBgAnxPoblevzfLS"
                       title="YouTube video player"
                       frameborder="0"
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -70,7 +69,7 @@ const Videos = () => {
                   <iframe
                     width="560"
                     height="315"
-                    src="https://www.youtube.com/embed/3oRwnqGq0j0?si=RhJtSdAUJX1HlXkQ"
+                    src="https://www.youtube.com/embed/UKJ6uAwSenQ?si=5R077UhXr8Hew-BY"
                     title="YouTube video player"
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -103,7 +102,16 @@ const Videos = () => {
                   />
                 </div>
                 <div className="aspect-w-16 aspect-h-9">
-                  <iframe width="560" height="315" src="https://www.youtube.com/embed/574TpMD4t7c?si=Lds8oeOT97bLLFBr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                  <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/574TpMD4t7c?si=Lds8oeOT97bLLFBr"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  />
                 </div>
 
               </div>
